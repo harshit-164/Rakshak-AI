@@ -1,0 +1,116 @@
+{
+  "bundle_version": "sif-reference-bundle-v1",
+  "rubric_version": "sif-pilot-v1",
+  "status": "project_curated_draft",
+  "intended_use": "Inference-time rubric and rule-scope context; not a training-rights determination.",
+  "rights_note": "The bundle paraphrases project interpretations. IOGP icons and official accompanying wording are not redistributed. Source rights for incident documents remain tracked separately.",
+  "sources": [
+    {
+      "source_id": "PROJECT-RUBRIC",
+      "title": "SIH26165 annotation guide sif-pilot-v1",
+      "url": null,
+      "accessed_at": "2026-09-03",
+      "rights_status": "cleared"
+    },
+    {
+      "source_id": "S25",
+      "title": "IOGP Report 459 and Life-Saving Rules supporting materials",
+      "url": "https://www.iogp.org/workstreams/safety/safety/life-savingrules/",
+      "accessed_at": "2026-09-03",
+      "rights_status": "unresolved"
+    },
+    {
+      "source_id": "S10",
+      "title": "BSEE Safety Alerts Program",
+      "url": "https://www.bsee.gov/guidance-and-regulations/guidance/safety-alerts-program",
+      "accessed_at": "2026-09-03",
+      "rights_status": "unresolved"
+    }
+  ],
+  "passages": [
+    {
+      "passage_id": "rubric-sif-decision-001",
+      "source_id": "PROJECT-RUBRIC",
+      "kind": "project_rubric",
+      "text": "Judge realistic potential for fatal or life-altering harm from the described task, energy or substance, person position, and stated controls. Actual injury severity is separate. Missing essential facts require unknown."
+    },
+    {
+      "passage_id": "rubric-control-state-001",
+      "source_id": "PROJECT-RUBRIC",
+      "kind": "project_rubric",
+      "text": "A control is present when stated in place, failed when stated not to perform its intended function, missing when explicitly absent, and unknown when not described well enough."
+    },
+    {
+      "passage_id": "lsr-role-001",
+      "source_id": "S25",
+      "kind": "source_paraphrase",
+      "text": "IOGP positions the Life-Saving Rules as worker-focused final barriers rather than replacements for management systems, competent people, site rules, or procedures."
+    },
+    {
+      "passage_id": "lsr-severity-separation-001",
+      "source_id": "S25",
+      "kind": "source_paraphrase",
+      "text": "Life-Saving Rule relevance or non-conformance and potential fatal severity are separate judgments; one does not determine the other."
+    },
+    {
+      "passage_id": "rule-bypassing-controls-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "bypassing_safety_controls is relevant when the observation concerns disabling, overriding, removing, or working around a safety-critical protection or safeguard."
+    },
+    {
+      "passage_id": "rule-confined-space-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "confined_space is relevant to entry or work in a confined space, including authorization, isolation, atmospheric testing, attendant, communication, and rescue readiness."
+    },
+    {
+      "passage_id": "rule-driving-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "driving is relevant to road or site vehicle operation, including fitness, seat belts, journey controls, speed, distraction, and mobile-device use."
+    },
+    {
+      "passage_id": "rule-energy-isolation-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "energy_isolation is relevant when hazardous electrical, mechanical, hydraulic, pneumatic, pressure, thermal, chemical, or other stored energy must be isolated and verified before work."
+    },
+    {
+      "passage_id": "rule-hot-work-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "hot_work is relevant to flames, sparks, heat, or other ignition sources where flammable material or atmosphere may be present and controlled authorization or testing is material."
+    },
+    {
+      "passage_id": "rule-line-of-fire-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "line_of_fire is relevant when a person may be struck, crushed, caught, released upon, or otherwise harmed because of position relative to moving equipment, objects, pressure, or gravity."
+    },
+    {
+      "passage_id": "rule-mechanical-lifting-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "safe_mechanical_lifting is relevant to lift planning, competent operation, lifting-equipment condition, load control, exclusion zones, and exposure beneath or near suspended loads."
+    },
+    {
+      "passage_id": "rule-work-authorisation-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "work_authorisation is relevant when defined authorization, task risk assessment, permit scope, control confirmation, handover, or reassessment after a change is material to the work."
+    },
+    {
+      "passage_id": "rule-working-at-height-001",
+      "source_id": "S25",
+      "kind": "project_scope_mapping",
+      "text": "working_at_height is relevant when a person could fall from an unprotected elevation or opening and fall prevention, fall arrest, anchorage, access, or dropped-object controls are material."
+    },
+    {
+      "passage_id": "source-alert-boundary-001",
+      "source_id": "S10",
+      "kind": "source_paraphrase",
+      "text": "BSEE safety alerts may combine incident circumstances with later recommendations. Recommendations are learning material and are not evidence that a control was present or absent in the submitted observation."
+    }
+  ]
+}

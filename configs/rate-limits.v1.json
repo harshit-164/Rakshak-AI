@@ -1,0 +1,10 @@
+{
+  "version": "rate-limits-v1",
+  "report_submissions_per_minute_per_user": 10,
+  "analyzed_reports_per_day_per_user": 100,
+  "max_active_jobs_per_user": 2,
+  "max_request_bytes": 524288,
+  "max_csv_bytes": 262144,
+  "max_csv_data_rows": 20
+}
+

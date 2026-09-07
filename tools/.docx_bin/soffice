@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# The confined LibreOffice snap cannot write to the renderer's private /tmp
+# directory. Redirect conversion output to a workspace staging directory, then
+# copy the result back to the exact location requested by render_docx.py.
+requested_out=""
+format=""
+input=""
+args=()
+while (($#)); do
+  case "$1" in
+    --outdir)
+      requested_out="$2"
+      args+=("--outdir" "/home/harshit/Desktop/SIH_26/artifacts/.lo_bridge")
+      shift 2
+      ;;
+    --convert-to)
+      format="$2"
+      args+=("$1" "$2")
+      shift 2
+      ;;
+    *)
+      args+=("$1")
+      input="$1"
+      shift
+      ;;
+  esac
+done
+
+mkdir -p /home/harshit/Desktop/SIH_26/artifacts/.lo_bridge
+/usr/bin/snap run libreoffice "${args[@]}"
+
+if [[ -n "$requested_out" && -n "$format" && -n "$input" ]]; then
+  stem="$(basename "$input")"
+  stem="${stem%.*}"
+  ext="${format%%:*}"
+  cp "/home/harshit/Desktop/SIH_26/artifacts/.lo_bridge/${stem}.${ext}" "$requested_out/${stem}.${ext}"
+fi

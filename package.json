@@ -1,0 +1,30 @@
+{
+  "name": "sif-review-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.8"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace=@sih/web",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "check": "npm run lint && npm run typecheck && npm run test && npm run db:test && npm run build",
+    "contracts:generate": "services/api/.venv/bin/python services/api/scripts/export_openapi.py && npm exec --workspace=@sih/contracts -- openapi-typescript openapi.json -o src/api.d.ts",
+    "contracts:check": "npm run contracts:generate && git diff --exit-code -- packages/contracts/openapi.json packages/contracts/src/api.d.ts",
+    "db:test": "node tests/database-isolation.mjs",
+    "api:dev": "services/api/.venv/bin/uvicorn app.main:app --reload --app-dir services/api",
+    "api:test": "services/api/.venv/bin/pytest services/api/tests",
+    "api:lint": "services/api/.venv/bin/ruff check services/api",
+    "api:format": "services/api/.venv/bin/ruff format services/api"
+  }
+}

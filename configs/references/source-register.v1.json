@@ -1,0 +1,71 @@
+{
+  "register_version": "source-register-v1",
+  "created_at": "2026-09-03",
+  "entries": [
+    {
+      "source_id": "CATALOG-SIH26165",
+      "title": "SIH26165 Training Data Sources",
+      "publisher": "SIH26165 project team",
+      "path": "SIH26165_Training_Data_Sources.docx",
+      "document_sha256": "2eb8a34efa504b0fadf5ce6e8999664a0026f2a77275d6c169633f9f0bd9c64c",
+      "access_method": "user_supplied_local_file",
+      "training_permission_status": "cleared",
+      "permission_basis": "Project-authored research catalogue; underlying linked-source rights are not inherited.",
+      "redistribution_status": "project_internal",
+      "extraction_status": "text_reviewed_render_unavailable",
+      "notes": "LibreOffice was unavailable, so DOCX visual rendering could not be completed. Text and tables were extracted read-only; the document catalogues 30 sources and is not incident training data."
+    },
+    {
+      "source_id": "S04-OISD-MOPOL-2025-26-20",
+      "title": "Fire Incident at Above-Ground Ethanol Storage Tank During Receipt Operations",
+      "publisher": "Oil Industry Safety Directorate",
+      "path": "Case Study-MOPOL-2025-26 (1).pdf",
+      "document_sha256": "ffc59a536d3e26b3e8ee6cea7a40c66ecdc488a0824248e4e555b21b9e5c2867",
+      "access_method": "user_supplied_local_file",
+      "training_permission_status": "unresolved",
+      "permission_basis": "Public availability observed; no blanket ML-training or redistribution permission established.",
+      "redistribution_status": "unresolved",
+      "extraction_status": "visually_reviewed_text_extracted",
+      "notes": "Three pages inspected. Incident narrative, observations, root cause, recommendations, and outcome must remain separate."
+    },
+    {
+      "source_id": "S04-OISD-SA-2025-26-PL-01",
+      "title": "Incident during unloading of rebar bundle from trailer",
+      "publisher": "Oil Industry Safety Directorate",
+      "path": "Safety alert-Final.pdf",
+      "document_sha256": "a6edd8d5b0f26bb4ae93d78ac6221f74e6524d5f4a45e49f54e1cbdbece77450",
+      "access_method": "user_supplied_local_file",
+      "training_permission_status": "unresolved",
+      "permission_basis": "Public availability observed; no blanket ML-training or redistribution permission established.",
+      "redistribution_status": "unresolved",
+      "extraction_status": "visually_reviewed_text_extracted",
+      "notes": "Two pages inspected. Title/outcome and post-event recommendations are excluded from the proposed model input."
+    },
+    {
+      "source_id": "S10-MMA-SA-525",
+      "title": "Segregate Pyrotechnics and Verify Flare Type Before Emergency Drills",
+      "publisher": "Marine Minerals Administration, U.S. Department of the Interior",
+      "path": "MMA Safety Alert 525 - Segregate Pyrotechnics and Verify Flare Type Before Emergency Drills.pdf",
+      "document_sha256": "03a91c1d0c01f35ed6773297a5182d01bf8f62f80b233e1fac05176ae1f3df41",
+      "access_method": "user_supplied_local_file",
+      "training_permission_status": "unresolved",
+      "permission_basis": "Government publication and public archive confirmed; item-level ML reuse and embedded-image rights not yet reviewed.",
+      "redistribution_status": "unresolved",
+      "extraction_status": "visually_reviewed_text_extracted",
+      "notes": "Three pages inspected. The incident circumstances are separated from findings and recommendations."
+    },
+    {
+      "source_id": "S11-BSEE-EW873-2022-03-03",
+      "title": "Accident Investigation Report — Ewing Banks Block 873 Platform A",
+      "publisher": "Bureau of Safety and Environmental Enforcement",
+      "path": "ew_873_enven_03-mar-2022.pdf",
+      "document_sha256": "076fe9111e4508b2dbd1e23617701475253e394385749818c6c28d4133e97782",
+      "access_method": "user_supplied_local_file",
+      "training_permission_status": "unresolved",
+      "permission_basis": "Government publication supplied by user; item-level ML reuse not yet documented.",
+      "redistribution_status": "unresolved",
+      "extraction_status": "visually_reviewed_text_extracted",
+      "notes": "Three pages inspected. Initial event facts, emergency response, investigation findings, cause, and outcome are separable."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "manifest_version": "model-manifest-v1",
+  "engine_mode": "hosted_baseline",
+  "provider": "google-gemini-api",
+  "model_id": "gemini-2.5-flash",
+  "model_revision": "provider_revision_unavailable",
+  "schema_version": "1.0",
+  "prompt_version": "sif-analysis-v1",
+  "prompt_path": "configs/prompts/sif-analysis-v1.txt",
+  "prompt_sha256": "0cf555f2b24d6881ea467e63dfe6097912f8d72cabc9f5d29f7ef306110ace5e",
+  "label_guide_version": "sif-pilot-v1",
+  "reference_bundle_version": "sif-reference-bundle-v1",
+  "reference_bundle_path": "configs/references/sif-reference-bundle.v1.json",
+  "reference_bundle_sha256": "c251c9dfd7b7bf488d793a08cacf7a583ab2af7c4b67eb72a39f3ad93b2bc4ef",
+  "normalization_version": "input-normalization-v1",
+  "taxonomy_order": [
+    "bypassing_safety_controls",
+    "confined_space",
+    "driving",
+    "energy_isolation",
+    "hot_work",
+    "line_of_fire",
+    "safe_mechanical_lifting",
+    "work_authorisation",
+    "working_at_height"
+  ],
+  "response_schema": "ModelOutputSubset",
+  "provider_timeout_seconds": 45,
+  "fallback_enabled": false,
+  "evaluation_status": "not_evaluated",
+  "live_smoke_status": "not_run",
+  "created_at": "2026-09-03"
+}

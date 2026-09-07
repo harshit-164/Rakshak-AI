@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: safeguard-ai-api
+    runtime: docker
+    dockerfilePath: ./services/api/Dockerfile
+    dockerContext: .
+    healthCheckPath: /health/live
+    autoDeployTrigger: checksPass
+    numInstances: 1
+    maxShutdownDelaySeconds: 60
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: ENGINE_MODE
+        value: hosted_baseline
+      - key: AUTH_AUDIENCE
+        value: authenticated
+      - key: PUBLIC_DEMO_ONLY
+        value: "true"
+      - key: ENABLE_EXPLICIT_FALLBACK
+        value: "false"
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: AUTH_ISSUER
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL_ID
+        value: gemini-2.5-flash
+      - key: ALLOWED_ORIGINS
+        sync: false

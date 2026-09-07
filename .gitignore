@@ -1,0 +1,32 @@
+# JavaScript
+node_modules/
+.next/
+coverage/
+playwright-report/
+test-results/
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.py[cod]
+
+# Secrets and local overrides
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Generated / private artifacts
+data/
+artifacts/models/
+evidence/screenshots/
+tmp/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
