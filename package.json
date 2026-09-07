@@ -26,5 +26,9 @@
     "api:test": "services/api/.venv/bin/pytest services/api/tests",
     "api:lint": "services/api/.venv/bin/ruff check services/api",
     "api:format": "services/api/.venv/bin/ruff format services/api"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "unrs-resolver@1.12.2": true
   }
 }
