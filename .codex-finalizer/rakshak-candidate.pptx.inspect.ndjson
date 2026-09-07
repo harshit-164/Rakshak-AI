@@ -1,0 +1,265 @@
+{"kind":"deck","id":"pr/n3slwz","name":"Deck"}
+{"kind":"layout","layoutId":"54dcb817-1738-4e3b-9a9b-4ba6bd71c139","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"32fe232e-6221-4123-aee3-303dab4e5f13","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/r6cruf","slide":1,"title":"RAKSHAK.AI","textShapes":13}
+{"kind":"shape","id":"sh/wr298bu9","slide":1,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/u5kr61c3","slide":1,"text":"RAKSHAK.AI","textPreview":"RAKSHAK.AI","textChars":10,"textLines":1,"bbox":[116,46,210,30]}
+{"kind":"textbox","id":"sh/4vm9cbul","slide":1,"text":"SMART INDIA HACKATHON 2026 / TEAM SABLE","textPreview":"SMART INDIA HACKATHON 2026 / TEAM SABLE","textChars":39,"textLines":1,"bbox":[58,138,520,24]}
+{"kind":"textbox","id":"sh/juds3qd0","slide":1,"text":"RAKSHAK AI","textPreview":"RAKSHAK AI","textChars":10,"textLines":1,"bbox":[56,170,600,92]}
+{"kind":"textbox","id":"sh/it4ralcf","slide":1,"text":"Explainable SIF intelligence from near-miss reports","textPreview":"Explainable SIF intelligence from near-miss reports","textChars":51,"textLines":1,"bbox":[58,266,585,72]}
+{"kind":"textbox","id":"sh/l0rqtwvm","slide":1,"text":"SIH26165  ·  Software  ·  Miscellaneous","textPreview":"SIH26165  ·  Software  ·  Miscellaneous","textChars":39,"textLines":1,"bbox":[58,357,560,32]}
+{"kind":"textbox","id":"sh/kzi90ru1","slide":1,"text":"A reviewer-first prototype that keeps exact evidence visible and uncertainty honest.","textPreview":"A reviewer-first prototype that keeps exact evidence visible and uncertainty honest.","textChars":84,"textLines":1,"bbox":[58,410,520,74]}
+{"kind":"shape","id":"sh/exonaloz","slide":1,"bbox":[688,124,522,352]}
+{"kind":"shape","id":"sh/gj65cb65","slide":1,"bbox":[915,440,245,46]}
+{"kind":"textbox","id":"sh/1kf65g7q","slide":1,"text":"WORKING PROTOTYPE","textPreview":"WORKING PROTOTYPE","textChars":17,"textLines":1,"bbox":[931,453,213,20]}
+{"kind":"shape","id":"sh/2l8nelov","slide":1,"bbox":[58,555,300,54]}
+{"kind":"textbox","id":"sh/3mho7qpg","slide":1,"text":"LIVE DEMO  ADD URL","textPreview":"LIVE DEMO  ADD URL","textChars":18,"textLines":1,"bbox":[74,566,268,34]}
+{"kind":"shape","id":"sh/onq5gv61","slide":1,"bbox":[374,555,300,54]}
+{"kind":"textbox","id":"sh/poz6907m","slide":1,"text":"VIDEO GUIDE  ADD URL","textPreview":"VIDEO GUIDE  ADD URL","textChars":20,"textLines":1,"bbox":[390,566,268,34]}
+{"kind":"shape","id":"sh/qp8ni5o7","slide":1,"bbox":[690,555,520,54]}
+{"kind":"textbox","id":"sh/bqhobqps","slide":1,"text":"GITHUB  github.com/harshit-164/Rakshak-AI","textPreview":"GITHUB  github.com/harshit-164/Rakshak-AI","textChars":41,"textLines":1,"bbox":[706,566,488,34]}
+{"kind":"textbox","id":"sh/nu14zalk","slide":1,"text":"Replace the two ADD URL fields before submission.","textPreview":"Replace the two ADD URL fields before submission.","textChars":49,"textLines":1,"bbox":[58,627,520,22]}
+{"kind":"shape","id":"sh/mtsn654f","slide":1,"bbox":[0,680,1280,40]}
+{"kind":"textbox","id":"sh/9gjm103q","slide":1,"text":"TEAM SABLE","textPreview":"TEAM SABLE","textChars":10,"textLines":1,"bbox":[48,689,220,20]}
+{"kind":"textbox","id":"sh/8fa58vm5","slide":1,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[1190,689,40,20]}
+{"kind":"image","id":"im/yl0jyxsr","slide":1,"name":"","alt":"Rakshak AI shield","bbox":[56,38,48,48]}
+{"kind":"image","id":"im/8b2147at","slide":1,"name":"","alt":"Smart India Hackathon 2026 logo","bbox":[1025,20,205,78]}
+{"kind":"image","id":"im/0fidknml","slide":1,"name":"","geometry":"roundRect","alt":"Rakshak AI prototype home screen","bbox":[700,136,498,328]}
+{"kind":"notes","id":"nt/r6cruf","slide":1,"text":"Project source: local Rakshak AI repository and running prototype captured on 2026-09-07. GitHub: https://github.com/harshit-164/Rakshak-AI"}
+{"kind":"slide","id":"sl/wsnmyq","slide":2,"title":"Idea and live demo","textShapes":26}
+{"kind":"shape","id":"sh/x4b6x8nq","slide":2,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/a107mt4z","slide":2,"text":"Idea and live demo","textPreview":"Idea and live demo","textChars":18,"textLines":1,"bbox":[54,25,940,55]}
+{"kind":"textbox","id":"sh/k72psnm1","slide":2,"text":"02 / SIH26165","textPreview":"02 / SIH26165","textChars":13,"textLines":1,"bbox":[54,84,250,24]}
+{"kind":"textbox","id":"sh/58bq18nm","slide":2,"text":"One report becomes a traceable review proposal","textPreview":"One report becomes a traceable review proposal","textChars":46,"textLines":1,"bbox":[54,116,660,40]}
+{"kind":"shape","id":"sh/i5k7qd4v","slide":2,"bbox":[54,178,205,144]}
+{"kind":"shape","id":"sh/j6t8zi5g","slide":2,"bbox":[66,191,34,34]}
+{"kind":"textbox","id":"sh/0bipgj6x","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[66,197,34,20]}
+{"kind":"textbox","id":"sh/lcr6poni","slide":2,"text":"Submit","textPreview":"Submit","textChars":6,"textLines":1,"bbox":[112,190,135,30]}
+{"kind":"textbox","id":"sh/xczql87i","slide":2,"text":"Paste a synthetic or cleared observation. Original text remains unchanged.","textPreview":"Paste a synthetic or cleared observation. Original text remains unchanged.","textChars":74,"textLines":1,"bbox":[72,232,169,78]}
+{"kind":"shape","id":"sh/wr6pc3qd","slide":2,"bbox":[282,178,205,144]}
+{"kind":"shape","id":"sh/vqx8jips","slide":2,"bbox":[294,191,34,34]}
+{"kind":"textbox","id":"sh/apo7ad87","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[294,197,34,20]}
+{"kind":"textbox","id":"sh/5gzqps7u","slide":2,"text":"Analyze","textPreview":"Analyze","textChars":7,"textLines":1,"bbox":[340,190,135,30]}
+{"kind":"textbox","id":"sh/kfqpgnq9","slide":2,"text":"The engine proposes SIF potential, precursor tags, barriers, and rule context.","textPreview":"The engine proposes SIF potential, precursor tags, barriers, and rule context.","textChars":78,"textLines":1,"bbox":[300,232,169,78]}
+{"kind":"shape","id":"sh/jeh8nipo","slide":2,"bbox":[510,178,205,144]}
+{"kind":"shape","id":"sh/id87ed83","slide":2,"bbox":[522,191,34,34]}
+{"kind":"textbox","id":"sh/tkjqts7q","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[522,197,34,20]}
+{"kind":"textbox","id":"sh/sjqpknq5","slide":2,"text":"Verify","textPreview":"Verify","textChars":6,"textLines":1,"bbox":[568,190,135,30]}
+{"kind":"textbox","id":"sh/czi1cvit","slide":2,"text":"Every evidence quote must exist in the submitted text before the result is saved.","textPreview":"Every evidence quote must exist in the submitted text before the result is saved.","textChars":81,"textLines":1,"bbox":[528,232,169,78]}
+{"kind":"shape","id":"sh/d0ri50je","slide":2,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/qx0jal0n","slide":2,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/by903q18","slide":2,"text":"WHAT THE JUDGE CAN CHECK","textPreview":"WHAT THE JUDGE CAN CHECK","textChars":24,"textLines":1,"bbox":[54,354,420,24]}
+{"kind":"shape","id":"sh/0321gfip","slide":2,"bbox":[54,388,26,26]}
+{"kind":"textbox","id":"sh/l4b29kja","slide":2,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[54,391,26,18]}
+{"kind":"textbox","id":"sh/y1kje50z","slide":2,"text":"Three-state result","textPreview":"Three-state result","textChars":18,"textLines":1,"bbox":[94,386,230,26]}
+{"kind":"textbox","id":"sh/z2t07a14","slide":2,"text":"yes, no, or unknown","textPreview":"yes, no, or unknown","textChars":19,"textLines":1,"bbox":[94,414,500,24]}
+{"kind":"shape","id":"sh/g7y14b2l","slide":2,"bbox":[54,458,26,26]}
+{"kind":"textbox","id":"sh/187ixgj6","slide":2,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[54,461,26,18]}
+{"kind":"textbox","id":"sh/jmx4jelo","slide":2,"text":"Evidence trail","textPreview":"Evidence trail","textChars":14,"textLines":1,"bbox":[94,456,230,26]}
+{"kind":"textbox","id":"sh/ilo3a9k3","slide":2,"text":"exact phrases from the report","textPreview":"exact phrases from the report","textChars":29,"textLines":1,"bbox":[94,484,500,24]}
+{"kind":"shape","id":"sh/5ofmlo3u","slide":2,"bbox":[54,528,26,26]}
+{"kind":"textbox","id":"sh/kn6lcj29","slide":2,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[54,531,26,18]}
+{"kind":"textbox","id":"sh/vyd4felc","slide":2,"text":"Human boundary","textPreview":"Human boundary","textChars":14,"textLines":1,"bbox":[94,526,230,26]}
+{"kind":"textbox","id":"sh/ax4369k7","slide":2,"text":"proposal separated from final decision","textPreview":"proposal separated from final decision","textChars":38,"textLines":1,"bbox":[94,554,500,24]}
+{"kind":"shape","id":"sh/xkfmho3i","slide":2,"bbox":[760,124,460,446]}
+{"kind":"shape","id":"sh/nud4bulg","slide":2,"bbox":[814,533,350,54]}
+{"kind":"textbox","id":"sh/mt432pkv","slide":2,"text":"LIVE DEMO LINK  ·  ADD URL","textPreview":"LIVE DEMO LINK  ·  ADD URL","textChars":26,"textLines":1,"bbox":[830,550,318,20]}
+{"kind":"textbox","id":"sh/21o76x0f","slide":2,"text":"2-minute path: paste → analyze → inspect evidence","textPreview":"2-minute path: paste → analyze → inspect evidence","textChars":49,"textLines":1,"bbox":[760,607,460,25]}
+{"kind":"shape","id":"sh/32x8f2h0","slide":2,"bbox":[0,680,1280,40]}
+{"kind":"textbox","id":"sh/o36p87yl","slide":2,"text":"TEAM SABLE","textPreview":"TEAM SABLE","textChars":10,"textLines":1,"bbox":[48,689,220,20]}
+{"kind":"textbox","id":"sh/p4fqhcz6","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1190,689,40,20]}
+{"kind":"image","id":"im/6lkfep4b","slide":2,"name":"","alt":"Smart India Hackathon 2026 logo","bbox":[1050,14,190,72]}
+{"kind":"image","id":"im/za1g7it4","slide":2,"name":"","geometry":"roundRect","alt":"Rakshak AI analysis form","bbox":[772,136,436,422]}
+{"kind":"notes","id":"nt/wsnmyq","slide":2,"text":"Implementation evidence: apps/web/app/analyze/analyze-form.tsx; services/api/app/validation.py; services/api/app/contracts.py. Prototype screenshot captured from the local app on 2026-09-07."}
+{"kind":"slide","id":"sl/gfjchx","slide":3,"title":"Technical architecture","textShapes":27}
+{"kind":"shape","id":"sh/wvapcjmh","slide":3,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/bu1o3elw","slide":3,"text":"Technical architecture","textPreview":"Technical architecture","textChars":22,"textLines":1,"bbox":[54,25,940,55]}
+{"kind":"textbox","id":"sh/lkj69o3y","slide":3,"text":"03 / SIH26165","textPreview":"03 / SIH26165","textChars":13,"textLines":1,"bbox":[54,84,250,24]}
+{"kind":"textbox","id":"sh/kjapgjmt","slide":3,"text":"The interface stays stable while the model layer can change","textPreview":"The interface stays stable while the model layer can change","textChars":59,"textLines":1,"bbox":[54,116,900,36]}
+{"kind":"textbox","id":"sh/ji1o7el8","slide":3,"text":"REVIEWER EXPERIENCE","textPreview":"REVIEWER EXPERIENCE","textChars":19,"textLines":1,"bbox":[54,167,220,24]}
+{"kind":"shape","id":"sh/yhs7et4n","slide":3,"bbox":[54,198,235,116]}
+{"kind":"shape","id":"sh/to36d83a","slide":3,"bbox":[66,211,34,34]}
+{"kind":"textbox","id":"sh/snupk3mp","slide":3,"text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[66,217,34,20]}
+{"kind":"textbox","id":"sh/i543ixs7","slide":3,"text":"Next.js client","textPreview":"Next.js client","textChars":14,"textLines":1,"bbox":[112,210,165,30]}
+{"kind":"textbox","id":"sh/36d4b2ts","slide":3,"text":"Anonymous session, report entry, job status, result view","textPreview":"Anonymous session, report entry, job status, result view","textChars":56,"textLines":1,"bbox":[72,252,199,50]}
+{"kind":"shape","id":"sh/47mlk7ad","slide":3,"bbox":[322,198,235,116]}
+{"kind":"shape","id":"sh/58vmdsbi","slide":3,"bbox":[334,211,34,34]}
+{"kind":"textbox","id":"sh/q943mxs3","slide":3,"text":"B","textPreview":"B","textChars":1,"textLines":1,"bbox":[334,217,34,20]}
+{"kind":"textbox","id":"sh/rax4f2to","slide":3,"text":"FastAPI service","textPreview":"FastAPI service","textChars":15,"textLines":1,"bbox":[380,210,165,30]}
+{"kind":"textbox","id":"sh/sb65o7a9","slide":3,"text":"Auth checks, idempotency, quotas, orchestration","textPreview":"Auth checks, idempotency, quotas, orchestration","textChars":47,"textLines":1,"bbox":[340,252,199,50]}
+{"kind":"shape","id":"sh/dcfmhcru","slide":3,"bbox":[590,198,235,116]}
+{"kind":"shape","id":"sh/mdk3adsz","slide":3,"bbox":[602,211,34,34]}
+{"kind":"textbox","id":"sh/7et43itk","slide":3,"text":"C","textPreview":"C","textChars":1,"textLines":1,"bbox":[602,217,34,20]}
+{"kind":"textbox","id":"sh/bip0be9c","slide":3,"text":"Supabase","textPreview":"Supabase","textChars":8,"textLines":1,"bbox":[648,210,165,30]}
+{"kind":"textbox","id":"sh/ahgji98r","slide":3,"text":"Postgres, row-level security, durable queue","textPreview":"Postgres, row-level security, durable queue","textChars":43,"textLines":1,"bbox":[608,252,199,50]}
+{"kind":"shape","id":"sh/xkridor2","slide":3,"bbox":[858,198,235,116]}
+{"kind":"shape","id":"sh/cji1kjqx","slide":3,"bbox":[870,211,34,34]}
+{"kind":"textbox","id":"sh/nep07u90","slide":3,"text":"D","textPreview":"D","textChars":1,"textLines":1,"bbox":[870,217,34,20]}
+{"kind":"textbox","id":"sh/2dgjep8f","slide":3,"text":"Analysis worker","textPreview":"Analysis worker","textChars":15,"textLines":1,"bbox":[916,210,165,30]}
+{"kind":"textbox","id":"sh/pg7i94r6","slide":3,"text":"Leases, retries, provider adapter, provenance","textPreview":"Leases, retries, provider adapter, provenance","textChars":45,"textLines":1,"bbox":[876,252,199,50]}
+{"kind":"shape","id":"sh/ofy1gzql","slide":3,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/7atkjy9k","slide":3,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/m90jqt8z","slide":3,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/4vuxkv6h","slide":3,"bbox":[1120,198,100,116]}
+{"kind":"textbox","id":"sh/5w3yd072","slide":3,"text":"HUMAN\nREVIEW","textPreview":"HUMAN | REVIEW","textChars":12,"textLines":2,"bbox":[1132,225,76,58]}
+{"kind":"shape","id":"sh/itcfilob","slide":3,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/3ulgbqpw","slide":3,"bbox":[54,350,1166,2]}
+{"kind":"textbox","id":"sh/sjuxov6d","slide":3,"text":"RAKSHAK SIF ENGINE","textPreview":"RAKSHAK SIF ENGINE","textChars":18,"textLines":1,"bbox":[54,374,300,24]}
+{"kind":"shape","id":"sh/dknyh07y","slide":3,"bbox":[54,409,535,169]}
+{"kind":"textbox","id":"sh/qxcfmlo7","slide":3,"text":"PROTOTYPE NOW","textPreview":"PROTOTYPE NOW","textChars":13,"textLines":1,"bbox":[76,429,220,24]}
+{"kind":"textbox","id":"sh/rylgfqps","slide":3,"text":"Gemini hosted baseline","textPreview":"Gemini hosted baseline","textChars":22,"textLines":1,"bbox":[76,463,360,36]}
+{"kind":"textbox","id":"sh/0nehsf6p","slide":3,"text":"Versioned rubric + strict JSON contract\nExact-text evidence and reference checks\nProvider identity retained in backend provenance","textPreview":"Versioned rubric + strict JSON contract | Exact-text evidence and reference checks | Provider identity retained in backend provenance","textChars":129,"textLines":3,"bbox":[76,512,468,58]}
+{"kind":"shape","id":"sh/1onylk7u","slide":3,"bbox":[623,409,597,169]}
+{"kind":"textbox","id":"sh/1kvqlg7y","slide":3,"text":"AFTER SELECTION","textPreview":"AFTER SELECTION","textChars":15,"textLines":1,"bbox":[647,429,220,24]}
+{"kind":"textbox","id":"sh/0jmpcb6d","slide":3,"text":"Train, compare, then replace the adapter","textPreview":"Train, compare, then replace the adapter","textChars":40,"textLines":1,"bbox":[647,463,520,34]}
+{"kind":"textbox","id":"sh/zid8j6ps","slide":3,"text":"DeBERTa-v3-small for classification\nQwen 2.5 1.5B with QLoRA for structured generation\nFrozen test set, threshold review, model card, CPU reload check","textPreview":"DeBERTa-v3-small for classification | Qwen 2.5 1.5B with QLoRA for structured generation | Frozen test set, threshold review, model card,...","textChars":150,"textLines":3,"bbox":[647,508,535,66]}
+{"kind":"shape","id":"sh/eh47a1on","slide":3,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/dgb6hw72","slide":3,"text":"Swap the model adapter only after evaluation. The UI, API, storage, and evidence checks remain.","textPreview":"Swap the model adapter only after evaluation. The UI, API, storage, and evidence checks remain.","textChars":95,"textLines":1,"bbox":[54,612,1166,32]}
+{"kind":"shape","id":"sh/cf2p8r6h","slide":3,"bbox":[0,680,1280,40]}
+{"kind":"textbox","id":"sh/rutofmpw","slide":3,"text":"TEAM SABLE","textPreview":"TEAM SABLE","textChars":10,"textLines":1,"bbox":[48,689,220,20]}
+{"kind":"textbox","id":"sh/qtk76hob","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1190,689,40,20]}
+{"kind":"image","id":"im/7mhwje1g","slide":3,"name":"","alt":"Smart India Hackathon 2026 logo","bbox":[1050,14,190,72]}
+{"kind":"notes","id":"nt/gfjchx","slide":3,"text":"Architecture evidence: README.md; apps/web/app/lib/safeguard-api.ts; services/api/app/routes.py; services/api/app/worker.py; services/api/app/validation.py; supabase/migrations. Model roadmap reflects the user's stated plan and is not presented as completed training."}
+{"kind":"slide","id":"sl/exrcfh","slide":4,"title":"Feasibility and risk control","textShapes":33}
+{"kind":"shape","id":"sh/2tgbe94f","slide":4,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/pw7a9on6","slide":4,"text":"Feasibility and risk control","textPreview":"Feasibility and risk control","textChars":28,"textLines":1,"bbox":[54,25,940,55]}
+{"kind":"textbox","id":"sh/fq5s3e54","slide":4,"text":"04 / SIH26165","textPreview":"04 / SIH26165","textChars":13,"textLines":1,"bbox":[54,84,250,24]}
+{"kind":"textbox","id":"sh/upwba94j","slide":4,"text":"The prototype already proves the workflow. The remaining risk sits in data quality and evaluation.","textPreview":"The prototype already proves the workflow. The remaining risk sits in data quality and evaluation.","textChars":98,"textLines":1,"bbox":[54,116,1120,52]}
+{"kind":"shape","id":"sh/hsna54na","slide":4,"bbox":[54,188,350,394]}
+{"kind":"shape","id":"sh/gretcjmp","slide":4,"bbox":[54,188,350,58]}
+{"kind":"textbox","id":"sh/725szu5s","slide":4,"text":"PROVEN IN PROTOTYPE","textPreview":"PROVEN IN PROTOTYPE","textChars":19,"textLines":1,"bbox":[72,207,314,22]}
+{"kind":"textbox","id":"sh/61cr6p4n","slide":4,"text":"Owner isolation","textPreview":"Owner isolation","textChars":15,"textLines":1,"bbox":[76,270,306,25]}
+{"kind":"textbox","id":"sh/gju9oru5","slide":4,"text":"Anonymous JWT + row-level security","textPreview":"Anonymous JWT + row-level security","textChars":34,"textLines":1,"bbox":[76,298,306,38]}
+{"kind":"shape","id":"sh/1knqxwvq","slide":4,"bbox":[76,335,306,1]}
+{"kind":"textbox","id":"sh/ehcrmhcz","slide":4,"text":"Durable processing","textPreview":"Durable processing","textChars":18,"textLines":1,"bbox":[76,344,306,25]}
+{"kind":"textbox","id":"sh/fil8vmdk","slide":4,"text":"Postgres queue with worker leases","textPreview":"Postgres queue with worker leases","textChars":33,"textLines":1,"bbox":[76,372,306,38]}
+{"kind":"shape","id":"sh/sfu9k7u9","slide":4,"bbox":[76,409,306,1]}
+{"kind":"textbox","id":"sh/tg3qtcvu","slide":4,"text":"Grounded output","textPreview":"Grounded output","textChars":15,"textLines":1,"bbox":[76,418,306,25]}
+{"kind":"textbox","id":"sh/6tc7ixc3","slide":4,"text":"Unsupported evidence quotes are rejected","textPreview":"Unsupported evidence quotes are rejected","textChars":40,"textLines":1,"bbox":[76,446,306,38]}
+{"kind":"shape","id":"sh/rel8r2do","slide":4,"bbox":[76,483,306,1]}
+{"kind":"textbox","id":"sh/cby9wbud","slide":4,"text":"Safe retries","textPreview":"Safe retries","textChars":12,"textLines":1,"bbox":[76,492,306,25]}
+{"kind":"textbox","id":"sh/xc7q5gvy","slide":4,"text":"Idempotency keys protect duplicate requests","textPreview":"Idempotency keys protect duplicate requests","textChars":43,"textLines":1,"bbox":[76,520,306,38]}
+{"kind":"shape","id":"sh/l83qpwn2","slide":4,"bbox":[450,188,350,394]}
+{"kind":"shape","id":"sh/k7u9grmh","slide":4,"bbox":[450,188,350,58]}
+{"kind":"textbox","id":"sh/j6l8n65w","slide":4,"text":"MAIN RISKS","textPreview":"MAIN RISKS","textChars":10,"textLines":1,"bbox":[468,207,314,22]}
+{"kind":"textbox","id":"sh/y5sre14b","slide":4,"text":"Limited labels","textPreview":"Limited labels","textChars":14,"textLines":1,"bbox":[472,270,306,25]}
+{"kind":"textbox","id":"sh/x4jqlwn6","slide":4,"text":"SIF precursor data needs expert review","textPreview":"SIF precursor data needs expert review","textChars":38,"textLines":1,"bbox":[472,298,306,38]}
+{"kind":"shape","id":"sh/w3apcrml","slide":4,"bbox":[472,335,306,1]}
+{"kind":"textbox","id":"sh/b218jm50","slide":4,"text":"Domain language","textPreview":"Domain language","textChars":15,"textLines":1,"bbox":[472,344,306,25]}
+{"kind":"textbox","id":"sh/a1s7ah4f","slide":4,"text":"Abbreviations and site terms vary","textPreview":"Abbreviations and site terms vary","textChars":33,"textLines":1,"bbox":[472,372,306,38]}
+{"kind":"shape","id":"sh/90jqhcnu","slide":4,"bbox":[472,409,306,1]}
+{"kind":"textbox","id":"sh/ozap87m9","slide":4,"text":"Alert fatigue","textPreview":"Alert fatigue","textChars":13,"textLines":1,"bbox":[472,418,306,25]}
+{"kind":"textbox","id":"sh/e5onidk7","slide":4,"text":"Too many false positives reduce trust","textPreview":"Too many false positives reduce trust","textChars":37,"textLines":1,"bbox":[472,446,306,38]}
+{"kind":"shape","id":"sh/f6xobils","slide":4,"bbox":[472,483,306,1]}
+{"kind":"textbox","id":"sh/07q5kn2d","slide":4,"text":"Sensitive reports","textPreview":"Sensitive reports","textChars":17,"textLines":1,"bbox":[472,492,306,25]}
+{"kind":"textbox","id":"sh/18z6ds3y","slide":4,"text":"Industrial incident text may be restricted","textPreview":"Industrial incident text may be restricted","textChars":42,"textLines":1,"bbox":[472,520,306,38]}
+{"kind":"shape","id":"sh/qhonedkb","slide":4,"bbox":[846,188,350,394]}
+{"kind":"shape","id":"sh/rixo7ilg","slide":4,"bbox":[846,188,350,58]}
+{"kind":"textbox","id":"sh/sj65gn21","slide":4,"text":"CONTROL PLAN","textPreview":"CONTROL PLAN","textChars":12,"textLines":1,"bbox":[864,207,314,22]}
+{"kind":"textbox","id":"sh/d4f6983m","slide":4,"text":"Rights register","textPreview":"Rights register","textChars":15,"textLines":1,"bbox":[868,270,306,25]}
+{"kind":"textbox","id":"sh/id4natkz","slide":4,"text":"Train only on cleared sources","textPreview":"Train only on cleared sources","textChars":29,"textLines":1,"bbox":[868,298,306,38]}
+{"kind":"shape","id":"sh/3ed43ylk","slide":4,"bbox":[868,335,306,1]}
+{"kind":"textbox","id":"sh/v6xkfepg","slide":4,"text":"Two-model benchmark","textPreview":"Two-model benchmark","textChars":19,"textLines":1,"bbox":[868,344,306,25]}
+{"kind":"textbox","id":"sh/u5ojm9ov","slide":4,"text":"Compare classifier and small LLM","textPreview":"Compare classifier and small LLM","textChars":32,"textLines":1,"bbox":[868,372,306,38]}
+{"kind":"shape","id":"sh/hsz2h476","slide":4,"bbox":[868,409,306,1]}
+{"kind":"textbox","id":"sh/w761oz61","slide":4,"text":"Human thresholding","textPreview":"Human thresholding","textChars":18,"textLines":1,"bbox":[868,418,306,25]}
+{"kind":"textbox","id":"sh/72xkbup4","slide":4,"text":"Tune for review workload and recall","textPreview":"Tune for review workload and recall","textChars":35,"textLines":1,"bbox":[868,446,306,38]}
+{"kind":"shape","id":"sh/m1ojipoj","slide":4,"bbox":[868,483,306,1]}
+{"kind":"textbox","id":"sh/94f2d47a","slide":4,"text":"Audit trail","textPreview":"Audit trail","textChars":11,"textLines":1,"bbox":[868,492,306,25]}
+{"kind":"textbox","id":"sh/8361kz6p","slide":4,"text":"Keep model, prompt, rubric, and input hashes","textPreview":"Keep model, prompt, rubric, and input hashes","textChars":44,"textLines":1,"bbox":[868,520,306,38]}
+{"kind":"shape","id":"sh/zydk7up8","slide":4,"bbox":[54,609,1142,40]}
+{"kind":"textbox","id":"sh/yx4jepon","slide":4,"text":"Prototype limit: use only synthetic or cleared public reports until the data-rights review is complete.","textPreview":"Prototype limit: use only synthetic or cleared public reports until the data-rights review is complete.","textChars":103,"textLines":1,"bbox":[72,619,1106,20]}
+{"kind":"shape","id":"sh/oripsri9","slide":4,"bbox":[0,680,1280,40]}
+{"kind":"textbox","id":"sh/psrq1wju","slide":4,"text":"TEAM SABLE","textPreview":"TEAM SABLE","textChars":10,"textLines":1,"bbox":[48,689,220,20]}
+{"kind":"textbox","id":"sh/2507qh03","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1190,689,40,20]}
+{"kind":"image","id":"im/p47mdkj2","slide":4,"name":"","alt":"Smart India Hackathon 2026 logo","bbox":[1050,14,190,72]}
+{"kind":"notes","id":"nt/exrcfh","slide":4,"text":"Implementation evidence: services/api/app/worker.py; services/api/app/validation.py; services/api/app/persistence.py; supabase/migrations; configs/references/source-register.v1.json. No production-readiness claim is made."}
+{"kind":"slide","id":"sl/l441e5","slide":5,"title":"Impact and evaluation","textShapes":29}
+{"kind":"shape","id":"sh/5wbih8re","slide":5,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/it0jmtsn","slide":5,"text":"Impact and evaluation","textPreview":"Impact and evaluation","textChars":21,"textLines":1,"bbox":[54,25,940,55]}
+{"kind":"textbox","id":"sh/wri1k3ax","slide":5,"text":"05 / SIH26165","textPreview":"05 / SIH26165","textChars":13,"textLines":1,"bbox":[54,84,250,24]}
+{"kind":"textbox","id":"sh/hsridor2","slide":5,"text":"Better prioritization must be demonstrated with reviewer data","textPreview":"Better prioritization must be demonstrated with reviewer data","textChars":61,"textLines":1,"bbox":[54,116,970,42]}
+{"kind":"shape","id":"sh/up0jitsr","slide":5,"bbox":[54,184,196,88]}
+{"kind":"textbox","id":"sh/vq90by9c","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[68,198,38,22]}
+{"kind":"textbox","id":"sh/gnm1wna1","slide":5,"text":"Near-miss text","textPreview":"Near-miss text","textChars":14,"textLines":1,"bbox":[68,228,168,28]}
+{"kind":"shape","id":"sh/1ov2psrm","slide":5,"bbox":[286,184,196,88]}
+{"kind":"textbox","id":"sh/94zipsva","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[300,198,38,22]}
+{"kind":"textbox","id":"sh/83qhwnep","slide":5,"text":"SIF proposal","textPreview":"SIF proposal","textChars":12,"textLines":1,"bbox":[300,228,168,28]}
+{"kind":"shape","id":"sh/72h0nid4","slide":5,"bbox":[518,184,196,88]}
+{"kind":"textbox","id":"sh/m18zudwj","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[532,198,38,22]}
+{"kind":"textbox","id":"sh/l0fil8vy","slide":5,"text":"Verified evidence","textPreview":"Verified evidence","textChars":17,"textLines":1,"bbox":[532,228,168,28]}
+{"kind":"shape","id":"sh/kz6hsned","slide":5,"bbox":[750,184,196,88]}
+{"kind":"textbox","id":"sh/zyx0zids","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[764,198,38,22]}
+{"kind":"textbox","id":"sh/yxozqdwn","slide":5,"text":"Reviewer action","textPreview":"Reviewer action","textChars":15,"textLines":1,"bbox":[764,228,168,28]}
+{"kind":"shape","id":"sh/5wjixcv2","slide":5,"bbox":[982,184,196,88]}
+{"kind":"textbox","id":"sh/4va147ex","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[996,198,38,22]}
+{"kind":"textbox","id":"sh/ozil0b2t","slide":5,"text":"Learning loop","textPreview":"Learning loop","textChars":13,"textLines":1,"bbox":[996,228,168,28]}
+{"kind":"shape","id":"sh/p0r29g3e","slide":5,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/2d03ylk3","slide":5,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/3e9k7ql8","slide":5,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/gby1wbmx","slide":5,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/hc725g3i","slide":5,"text":"EVALUATION SCORECARD","textPreview":"EVALUATION SCORECARD","textChars":20,"textLines":1,"bbox":[54,314,330,24]}
+{"kind":"shape","id":"sh/u9gju14r","slide":5,"bbox":[54,350,1142,50]}
+{"kind":"textbox","id":"sh/fapk36lc","slide":5,"text":"SIF recall","textPreview":"SIF recall","textChars":10,"textLines":1,"bbox":[72,363,210,22]}
+{"kind":"textbox","id":"sh/s7y1srml","slide":5,"text":"Of expert-confirmed SIF precursors, how many did the system flag?","textPreview":"Of expert-confirmed SIF precursors, how many did the system flag?","textChars":65,"textLines":1,"bbox":[305,361,620,28]}
+{"kind":"textbox","id":"sh/t8721w36","slide":5,"text":"Safety coverage","textPreview":"Safety coverage","textChars":15,"textLines":1,"bbox":[960,363,210,22]}
+{"kind":"shape","id":"sh/v25kbm58","slide":5,"bbox":[54,412,1142,50]}
+{"kind":"textbox","id":"sh/a1w32hon","slide":5,"text":"Evidence precision","textPreview":"Evidence precision","textChars":18,"textLines":1,"bbox":[72,425,210,22]}
+{"kind":"textbox","id":"sh/x4nmdwny","slide":5,"text":"What share of surfaced evidence supports the proposed finding?","textPreview":"What share of surfaced evidence supports the proposed finding?","textChars":62,"textLines":1,"bbox":[305,423,620,28]}
+{"kind":"textbox","id":"sh/w3el4r6t","slide":5,"text":"Explainability","textPreview":"Explainability","textChars":14,"textLines":1,"bbox":[960,425,210,22]}
+{"kind":"shape","id":"sh/j6p4f654","slide":5,"bbox":[54,474,1142,50]}
+{"kind":"textbox","id":"sh/i5g361oj","slide":5,"text":"False alert rate","textPreview":"False alert rate","textChars":16,"textLines":1,"bbox":[72,487,210,22]}
+{"kind":"textbox","id":"sh/587mhgna","slide":5,"text":"How often does the system flag a non-SIF report?","textPreview":"How often does the system flag a non-SIF report?","textChars":48,"textLines":1,"bbox":[305,485,620,28]}
+{"kind":"textbox","id":"sh/k7yl8b6p","slide":5,"text":"Reviewer trust","textPreview":"Reviewer trust","textChars":14,"textLines":1,"bbox":[960,487,210,22]}
+{"kind":"shape","id":"sh/7ap4j65g","slide":5,"bbox":[54,536,1142,50]}
+{"kind":"textbox","id":"sh/69g3a1ov","slide":5,"text":"Median review time","textPreview":"Median review time","textChars":18,"textLines":1,"bbox":[72,549,210,22]}
+{"kind":"textbox","id":"sh/qp8f2903","slide":5,"text":"Minutes from opening a report to a recorded human decision","textPreview":"Minutes from opening a report to a recorded human decision","textChars":58,"textLines":1,"bbox":[305,547,620,28]}
+{"kind":"textbox","id":"sh/bqhwveho","slide":5,"text":"Operational value","textPreview":"Operational value","textChars":17,"textLines":1,"bbox":[960,549,210,22]}
+{"kind":"textbox","id":"sh/crqx4ji9","slide":5,"text":"No impact percentage is claimed yet. Baseline and target values will be set with OIL reviewers after pilot data is available.","textPreview":"No impact percentage is claimed yet. Baseline and target values will be set with OIL reviewers after pilot data is available.","textChars":125,"textLines":1,"bbox":[54,617,1142,30]}
+{"kind":"shape","id":"sh/dszexozu","slide":5,"bbox":[0,680,1280,40]}
+{"kind":"textbox","id":"sh/yt8f6t0f","slide":5,"text":"TEAM SABLE","textPreview":"TEAM SABLE","textChars":10,"textLines":1,"bbox":[48,689,220,20]}
+{"kind":"textbox","id":"sh/zu1wzyhk","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1190,689,40,20]}
+{"kind":"image","id":"im/u1sbixkb","slide":5,"name":"","alt":"Smart India Hackathon 2026 logo","bbox":[1050,14,190,72]}
+{"kind":"notes","id":"nt/l441e5","slide":5,"text":"The scorecard defines proposed evaluation metrics. No measured impact results are available in the repository as of 2026-09-07."}
+{"kind":"slide","id":"sl/49dl7a","slide":6,"title":"Research, roadmap, and submission links","textShapes":30}
+{"kind":"shape","id":"sh/3qloz69c","slide":6,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/4rup8bqx","slide":6,"text":"Research, roadmap, and submission links","textPreview":"Research, roadmap, and submission links","textChars":39,"textLines":1,"bbox":[54,25,940,55]}
+{"kind":"textbox","id":"sh/ulsn21sf","slide":6,"text":"06 / SIH26165","textPreview":"06 / SIH26165","textChars":13,"textLines":1,"bbox":[54,84,250,24]}
+{"kind":"textbox","id":"sh/fm1ovm90","slide":6,"text":"MODEL ROADMAP","textPreview":"MODEL ROADMAP","textChars":13,"textLines":1,"bbox":[54,121,260,24]}
+{"kind":"shape","id":"sh/gna54ral","slide":6,"bbox":[54,156,530,72]}
+{"kind":"textbox","id":"sh/hoj6xwr6","slide":6,"text":"NOW","textPreview":"NOW","textChars":3,"textLines":1,"bbox":[70,171,68,18]}
+{"kind":"textbox","id":"sh/6x8nyhsj","slide":6,"text":"Hosted baseline","textPreview":"Hosted baseline","textChars":15,"textLines":1,"bbox":[150,166,190,24]}
+{"kind":"textbox","id":"sh/7y1orm94","slide":6,"text":"Complete demo flow and collect structured reviewer feedback","textPreview":"Complete demo flow and collect structured reviewer feedback","textChars":59,"textLines":1,"bbox":[150,193,410,28]}
+{"kind":"shape","id":"sh/netsr254","slide":6,"bbox":[54,244,530,72]}
+{"kind":"textbox","id":"sh/mdkrixoj","slide":6,"text":"NEXT","textPreview":"NEXT","textChars":4,"textLines":1,"bbox":[70,259,68,18]}
+{"kind":"textbox","id":"sh/9gbatsnu","slide":6,"text":"Curated labels","textPreview":"Curated labels","textChars":14,"textLines":1,"bbox":[150,254,190,24]}
+{"kind":"textbox","id":"sh/of29k76p","slide":6,"text":"Resolve data rights, define splits, annotate with domain experts","textPreview":"Resolve data rights, define splits, annotate with domain experts","textChars":64,"textLines":1,"bbox":[150,281,410,28]}
+{"kind":"shape","id":"sh/bitsv250","slide":6,"bbox":[54,332,530,72]}
+{"kind":"textbox","id":"sh/ahkrmxof","slide":6,"text":"THEN","textPreview":"THEN","textChars":4,"textLines":1,"bbox":[70,347,68,18]}
+{"kind":"textbox","id":"sh/xkvaxcn6","slide":6,"text":"Model benchmark","textPreview":"Model benchmark","textChars":15,"textLines":1,"bbox":[150,342,190,24]}
+{"kind":"textbox","id":"sh/wj29o76l","slide":6,"text":"Compare DeBERTa classifier and Qwen 2.5 1.5B QLoRA","textPreview":"Compare DeBERTa classifier and Qwen 2.5 1.5B QLoRA","textChars":50,"textLines":1,"bbox":[150,369,410,28]}
+{"kind":"shape","id":"sh/rm98jipw","slide":6,"bbox":[54,420,530,72]}
+{"kind":"textbox","id":"sh/ql0radob","slide":6,"text":"GATE","textPreview":"GATE","textChars":4,"textLines":1,"bbox":[70,435,68,18]}
+{"kind":"textbox","id":"sh/uhovil8z","slide":6,"text":"Safe replacement","textPreview":"Safe replacement","textChars":16,"textLines":1,"bbox":[150,430,190,24]}
+{"kind":"textbox","id":"sh/fixcrqpk","slide":6,"text":"Promote only after held-out evaluation and model documentation","textPreview":"Promote only after held-out evaluation and model documentation","textChars":62,"textLines":1,"bbox":[150,457,410,28]}
+{"kind":"textbox","id":"sh/g3qdkvqp","slide":6,"text":"PRIMARY REFERENCES","textPreview":"PRIMARY REFERENCES","textChars":18,"textLines":1,"bbox":[638,121,280,24]}
+{"kind":"textbox","id":"sh/h4zutg7a","slide":6,"text":"SafeOCS","textPreview":"SafeOCS","textChars":7,"textLines":1,"bbox":[638,158,205,26]}
+{"kind":"textbox","id":"sh/6dove18n","slide":6,"text":"Near-miss and offshore precursor data program","textPreview":"Near-miss and offshore precursor data program","textChars":45,"textLines":1,"bbox":[638,188,520,34]}
+{"kind":"textbox","id":"sh/7excn6p8","slide":6,"text":"IOGP","textPreview":"IOGP","textChars":4,"textLines":1,"bbox":[638,236,205,26]}
+{"kind":"textbox","id":"sh/sf6dgbqt","slide":6,"text":"Process safety indicators and Life-Saving Rules","textPreview":"Process safety indicators and Life-Saving Rules","textChars":47,"textLines":1,"bbox":[638,266,520,34]}
+{"kind":"textbox","id":"sh/tgfupg7e","slide":6,"text":"Baker et al.","textPreview":"Baker et al.","textChars":12,"textLines":1,"bbox":[638,314,205,26]}
+{"kind":"textbox","id":"sh/i94ba18r","slide":6,"text":"Learning injury precursors from raw reports","textPreview":"Learning injury precursors from raw reports","textChars":43,"textLines":1,"bbox":[638,344,520,34]}
+{"kind":"textbox","id":"sh/jadcj6pc","slide":6,"text":"Petrobras 3W","textPreview":"Petrobras 3W","textChars":12,"textLines":1,"bbox":[638,392,205,26]}
+{"kind":"textbox","id":"sh/lgn65ov6","slide":6,"text":"Public benchmark for undesirable oil-well events","textPreview":"Public benchmark for undesirable oil-well events","textChars":48,"textLines":1,"bbox":[638,422,520,34]}
+{"kind":"shape","id":"sh/0fupcjel","slide":6,"bbox":[638,489,558,2]}
+{"kind":"textbox","id":"sh/zelo3yd0","slide":6,"text":"ADD BEFORE UPLOAD","textPreview":"ADD BEFORE UPLOAD","textChars":17,"textLines":1,"bbox":[638,512,270,24]}
+{"kind":"shape","id":"sh/ydc7atwf","slide":6,"bbox":[638,545,270,54]}
+{"kind":"textbox","id":"sh/dc361ovu","slide":6,"text":"LIVE DEMO  ADD URL","textPreview":"LIVE DEMO  ADD URL","textChars":18,"textLines":1,"bbox":[654,556,238,34]}
+{"kind":"shape","id":"sh/cbup8je9","slide":6,"bbox":[926,545,270,54]}
+{"kind":"textbox","id":"sh/balozedo","slide":6,"text":"VIDEO GUIDE  ADD URL","textPreview":"VIDEO GUIDE  ADD URL","textChars":20,"textLines":1,"bbox":[942,556,238,34]}
+{"kind":"textbox","id":"sh/q9cn69wj","slide":6,"text":"GitHub  github.com/harshit-164/Rakshak-AI","textPreview":"GitHub  github.com/harshit-164/Rakshak-AI","textChars":41,"textLines":1,"bbox":[638,619,558,24]}
+{"kind":"shape","id":"sh/p836x4vy","slide":6,"bbox":[0,680,1280,40]}
+{"kind":"textbox","id":"sh/ona54zed","slide":6,"text":"TEAM SABLE","textPreview":"TEAM SABLE","textChars":10,"textLines":1,"bbox":[48,689,220,20]}
+{"kind":"textbox","id":"sh/4f25ojax","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1190,689,40,20]}
+{"kind":"image","id":"im/4ve5kjqx","slide":6,"name":"","alt":"Smart India Hackathon 2026 logo","bbox":[1050,14,190,72]}
+{"kind":"notes","id":"nt/49dl7a","slide":6,"text":"Sources accessed 2026-09-07:\nSafeOCS: https://www.bts.gov/browse-statistical-products-and-data/precursor-safety-data-program/offshore-energy-safety-data\nIOGP Life-Saving Rules: https://www.iogp.org/workstreams/safety/safety/life-savingrules/\nAutomatically Learning Construction Injury Precursors from Text: https://arxiv.org/abs/1907.11769\nPetrobras 3W: https://github.com/petrobras/3W\nInternal rights register: configs/references/source-register.v1.json"}

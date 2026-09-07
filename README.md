@@ -1,6 +1,13 @@
 # Rakshak AI
 
-> Evidence-grounded safety-observation review for the SIH 2026 prototype.
+Evidence-grounded review of near-miss and unsafe-condition reports for the
+SIH 2026 problem statement SIH26165.
+
+## Project links
+
+- **Live prototype:** `ADD_DEPLOYED_URL`
+- **Video walkthrough:** `ADD_VIDEO_URL`
+- **GitHub:** https://github.com/harshit-164/Rakshak-AI
 
 Rakshak AI helps a human reviewer inspect a safety observation for potential
 serious injury or fatality (SIF) mechanisms. It is a decision-support tool:
@@ -8,13 +15,16 @@ it preserves the submitted text, proposes a structured assessment, and makes
 the supporting exact-text evidence visible. It never certifies that work is
 safe or replaces a competent safety reviewer.
 
-## Why Rakshak
+## The problem
 
-Safety observations are frequently unstructured and difficult to compare. A
-reviewer may need to identify hazardous energy, exposure, controls, and
-Life-Saving Rule context quickly—without turning uncertain evidence into a
-false conclusion. Rakshak creates an auditable review proposal with explicit
-unknowns, rule coverage, evidence quotes, and a human-review boundary.
+Safety observations often arrive as unstructured text. Reviewers must identify
+hazardous energy, exposure, control status, and Life-Saving Rule context without
+turning missing information into a confident conclusion.
+
+Rakshak turns each report into a review proposal with a three-state SIF label
+(`yes`, `no`, or `unknown`), exact-text evidence, barrier observations, rule
+coverage, and visible model provenance. A qualified reviewer makes the final
+decision.
 
 ## Demo flow
 
@@ -29,19 +39,24 @@ flowchart LR
     G --> H[Human reviewer makes the final decision]
 ```
 
-## Architecture
+## Current architecture
 
 ```mermaid
 flowchart TB
-    UI[Next.js / Rakshak AI UI] -->|JWT via secure proxy| API[FastAPI orchestration API]
-    UI --> AUTH[Supabase Auth\nanonymous test sessions]
+    UI[Next.js reviewer interface] -->|Anonymous JWT| API[FastAPI orchestration API]
+    UI --> AUTH[Supabase Auth]
     API --> DB[Supabase Postgres + RLS]
-    API --> Q[Postgres durable queue]
-    Q --> W[Single analysis worker]
-    W --> M[Hosted baseline adapter]
-    M --> V[Schema, grounding and reference checks]
+    API --> Q[Durable Postgres job queue]
+    Q --> W[Analysis worker with leases]
+    W --> M[Gemini baseline adapter]
+    M --> V[Schema, evidence and reference checks]
     V --> DB
+    DB --> UI
 ```
+
+The product layer is called the **Rakshak SIF Engine**. The prototype currently
+uses Gemini behind that layer. Provider identity and configuration remain in
+backend provenance records.
 
 ## Key capabilities
 
@@ -53,7 +68,7 @@ flowchart TB
 - Strict validation: every quoted item must be present in the supplied narrative or activity.
 - Versioned prompt, reference-bundle, rubric, and assessment provenance.
 
-## Model status — transparent by design
+## Model status
 
 The live prototype currently uses a hosted Gemini baseline behind the
 **Rakshak SIF Engine** product layer. The UI intentionally presents the
@@ -65,15 +80,15 @@ canonical Life-Saving Rule taxonomy, controlled reference bundle, strict JSON
 contract, and evidence-grounding validator. This is not represented as
 fine-tuning.
 
-The next training track is actively prepared and documented:
+The planned training track is:
 
 1. A **DeBERTa-v3-small** supervised classifier for SIF and multi-label rule assessment.
 2. A **Qwen 2.5 1.5B QLoRA** experiment for structured assessment generation.
 3. Frozen held-out evaluation, model cards, threshold selection, and CPU reload checks before any trained artifact can replace the hosted baseline.
 
-See [FINE_TUNING_GUIDE.md](SIH26165_Agent_Development_Pack/FINE_TUNING_GUIDE.md)
-and [DATA_PLAN.md](SIH26165_Agent_Development_Pack/DATA_PLAN.md) for the
-reproducible roadmap and safety constraints.
+The repository does not claim that these models are already trained. Training
+data rights and extraction status are tracked in
+[`configs/references/source-register.v1.json`](configs/references/source-register.v1.json).
 
 ## Repository map
 
@@ -85,7 +100,7 @@ reproducible roadmap and safety constraints.
 | `packages/contracts` | Shared API contracts generated from the backend |
 | `configs` | Versioned prompts, references, and rate limits |
 | `tests`, `supabase/tests`, `services/api/tests` | Isolation, contract, API, worker, and adapter verification |
-| `SIH26165_Agent_Development_Pack` | Product requirements, design decisions, training and deployment plan |
+| `data`, `evidence` | Draft extractions and task evidence used during prototype development |
 
 ## Run locally
 

@@ -1,0 +1,1336 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/x8f69ofe",
+    "id": "x8f69ofe",
+    "slide": 6,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4F81BD",
+      "accent2": "#C0504D",
+      "accent3": "#9BBB59",
+      "accent4": "#8064A2",
+      "accent5": "#4BACC6",
+      "accent6": "#F79646",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#1F497D",
+      "lt2": "#EEECE1",
+      "hlink": "#0000FF",
+      "folHlink": "#800080"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Times New Roman",
+      "TradeGothic"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "8/26/2026",
+          "textPreview": "8/26/2026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "8/26/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "8/26/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "@SIH Idea submission- Template",
+          "textPreview": "@SIH Idea submission- Template",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "@SIH Idea submission- Template"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1026",
+          "id": "1026",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            64,
+            -5,
+            1152,
+            120
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1027",
+          "id": "1027",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            64,
+            115,
+            1152,
+            528.17
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            64,
+            667.33,
+            298.67,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "8/26/2026",
+          "textPreview": "8/26/2026",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "8/26/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "8/26/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            437.33,
+            667.33,
+            405.33,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "@SIH Idea submission- Template",
+          "textPreview": "@SIH Idea submission- Template",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "@SIH Idea submission- Template"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            917.33,
+            667.33,
+            298.67,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4bupgn6",
+      "id": "10",
+      "name": "Rectangle 9",
+      "bbox": [
+        0,
+        667.17,
+        1280,
+        52.83
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0",
+      "lineWidth": 1
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kj2p0ve",
+      "id": "17409",
+      "name": "Title 1",
+      "bbox": [
+        64,
+        -5,
+        1152,
+        120
+      ],
+      "text": "RESEARCH  AND REFERENCES",
+      "textPreview": "RESEARCH  AND REFERENCES",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 58.67,
+        "typeface": "TradeGothic",
+        "color": "tx1",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RESEARCH  AND REFERENCES"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RESEARCH  AND REFERENCES",
+          "runs": [
+            {
+              "index": 1,
+              "text": "RESEARCH  AND REFERENCES",
+              "fontSize": 48,
+              "typeface": "Times New Roman",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ml07i9sv",
+      "id": "6",
+      "name": "Slide Number Placeholder 5",
+      "bbox": [
+        917.33,
+        667.33,
+        298.67,
+        38.33
+      ],
+      "text": "6",
+      "textPreview": "6",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 16,
+        "typeface": "TradeGothic",
+        "color": "#898989",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6",
+              "fontSize": 16,
+              "typeface": "TradeGothic",
+              "color": "#000000",
+              "bold": true,
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7m98ru9g",
+      "id": "7",
+      "name": "Footer Placeholder 6",
+      "bbox": [
+        488,
+        667.33,
+        336.38,
+        38.33
+      ],
+      "text": "@SIH Idea submission- Template",
+      "textPreview": "@SIH Idea submission- Template",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 16,
+        "typeface": "TradeGothic",
+        "color": {
+          "type": "theme",
+          "value": "tx1",
+          "transform": {
+            "lighten": 0.25
+          }
+        },
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "@SIH Idea submission- Template"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "@SIH Idea submission- Template",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "fontSize": 16,
+              "typeface": "TradeGothic",
+              "color": "#000000",
+              "textTransform": "none"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pc76hkr2",
+      "id": "9",
+      "name": "Oval 8",
+      "bbox": [
+        34.62,
+        26.48,
+        131.43,
+        84.76
+      ],
+      "geometry": "ellipse",
+      "text": "Sable",
+      "textPreview": "Sable",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sable"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sable",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sable",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/2dkzmtwz",
+      "id": "17410",
+      "name": "Picture 11",
+      "bbox": [
+        1026.78,
+        0.16,
+        236.2,
+        111.53
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 671097
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 671097
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i54bylor",
+      "id": "17",
+      "name": "Rounded Rectangle 17411",
+      "bbox": [
+        64,
+        180,
+        556.8,
+        100.8
+      ],
+      "geometry": "roundRect",
+      "text": "SafeOCS — Precursor Safety Data Program\nUS Bureau of Transportation Statistics / BSEE. Voluntary near-miss and unsafe-act/condition reporting for offshore oil & gas. safeocs.gov",
+      "textPreview": "SafeOCS — Precursor Safety Data Program | US Bureau of Transportation Statistics / BSEE. Voluntary near-miss and unsafe-act/condition rep...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SafeOCS — Precursor Safety Data Program"
+          },
+          {
+            "index": 2,
+            "text": "US Bureau of Transportation Statistics / BSEE. Voluntary near-miss and unsafe-act/condition"
+          },
+          {
+            "index": 3,
+            "text": "reporting for offshore oil & gas. safeocs.gov"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SafeOCS — Precursor Safety Data Program",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SafeOCS — Precursor Safety Data Program",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "#191E23",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "US Bureau of Transportation Statistics / BSEE. Voluntary near-miss and unsafe-act/condition reporting for offshore oil & gas. safeocs.gov",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "US Bureau of Transportation Statistics / BSEE. Voluntary near-miss and unsafe-act/condition reporting for offshore oil & gas. safeocs.gov",
+              "fontSize": 14,
+              "typeface": "Times New Roman",
+              "color": "#44494F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twfux0ne",
+      "id": "18",
+      "name": "Rounded Rectangle 17412",
+      "bbox": [
+        659.2,
+        180,
+        556.8,
+        100.8
+      ],
+      "geometry": "roundRect",
+      "text": "IOGP Safety Performance Indicators\nInternational Association of Oil & Gas Producers. Global incident database with causal factors since 1985. iogp.org",
+      "textPreview": "IOGP Safety Performance Indicators | International Association of Oil & Gas Producers. Global incident database with causal factors since...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IOGP Safety Performance Indicators"
+          },
+          {
+            "index": 2,
+            "text": "International Association of Oil & Gas Producers. Global incident database with causal"
+          },
+          {
+            "index": 3,
+            "text": "factors since 1985. iogp.org"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IOGP Safety Performance Indicators",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IOGP Safety Performance Indicators",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "#191E23",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "International Association of Oil & Gas Producers. Global incident database with causal factors since 1985. iogp.org",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "International Association of Oil & Gas Producers. Global incident database with causal factors since 1985. iogp.org",
+              "fontSize": 14,
+              "typeface": "Times New Roman",
+              "color": "#44494F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svmt4v6t",
+      "id": "19",
+      "name": "Rounded Rectangle 17413",
+      "bbox": [
+        64,
+        309.6,
+        556.8,
+        100.8
+      ],
+      "geometry": "roundRect",
+      "text": "Automatically Learning Construction Injury Precursors from Text\n90,000+ oil & gas incident reports (title, description, root cause) with severity/injury labels. arXiv:1907.11769",
+      "textPreview": "Automatically Learning Construction Injury Precursors from Text | 90,000+ oil & gas incident reports (title, description, root cause) wit...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Automatically Learning Construction Injury Precursors from"
+          },
+          {
+            "index": 2,
+            "text": "Text"
+          },
+          {
+            "index": 3,
+            "text": "90,000+ oil & gas incident reports (title, description, root cause) with severity/injury labels."
+          },
+          {
+            "index": 4,
+            "text": "arXiv:1907.11769"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Automatically Learning Construction Injury Precursors from Text",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Automatically Learning Construction Injury Precursors from Text",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "#191E23",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "90,000+ oil & gas incident reports (title, description, root cause) with severity/injury labels. arXiv:1907.11769",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "90,000+ oil & gas incident reports (title, description, root cause) with severity/injury labels. arXiv:1907.11769",
+              "fontSize": 14,
+              "typeface": "Times New Roman",
+              "color": "#44494F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbe5g3ih",
+      "id": "20",
+      "name": "Rounded Rectangle 17414",
+      "bbox": [
+        659.2,
+        309.6,
+        556.8,
+        100.8
+      ],
+      "geometry": "roundRect",
+      "text": "Expert-Annotated High-Pressure Gas Incident Dataset\nNER + cause-extraction annotations on petrochemical/oil-refining incident reports. arXiv:2310.12074",
+      "textPreview": "Expert-Annotated High-Pressure Gas Incident Dataset | NER + cause-extraction annotations on petrochemical/oil-refining incident reports. ...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Expert-Annotated High-Pressure Gas Incident Dataset"
+          },
+          {
+            "index": 2,
+            "text": "NER + cause-extraction annotations on petrochemical/oil-refining incident reports."
+          },
+          {
+            "index": 3,
+            "text": "arXiv:2310.12074"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Expert-Annotated High-Pressure Gas Incident Dataset",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Expert-Annotated High-Pressure Gas Incident Dataset",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "#191E23",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "NER + cause-extraction annotations on petrochemical/oil-refining incident reports. arXiv:2310.12074",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NER + cause-extraction annotations on petrochemical/oil-refining incident reports. arXiv:2310.12074",
+              "fontSize": 14,
+              "typeface": "Times New Roman",
+              "color": "#44494F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcnm98zm",
+      "id": "21",
+      "name": "Rounded Rectangle 17415",
+      "bbox": [
+        64,
+        439.2,
+        556.8,
+        100.8
+      ],
+      "geometry": "roundRect",
+      "text": "Petrobras 3W Dataset\nPublic benchmark of rare undesirable events in oil wells for anomaly detection/diagnosis. github.com/petrobras/3W",
+      "textPreview": "Petrobras 3W Dataset | Public benchmark of rare undesirable events in oil wells for anomaly detection/diagnosis. github.com/petrobras/3W",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Petrobras 3W Dataset"
+          },
+          {
+            "index": 2,
+            "text": "Public benchmark of rare undesirable events in oil wells for anomaly detection/diagnosis."
+          },
+          {
+            "index": 3,
+            "text": "github.com/petrobras/3W"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Petrobras 3W Dataset",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Petrobras 3W Dataset",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "#191E23",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Public benchmark of rare undesirable events in oil wells for anomaly detection/diagnosis. github.com/petrobras/3W",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Public benchmark of rare undesirable events in oil wells for anomaly detection/diagnosis. github.com/petrobras/3W",
+              "fontSize": 14,
+              "typeface": "Times New Roman",
+              "color": "#44494F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpwnet0b",
+      "id": "22",
+      "name": "Rounded Rectangle 17416",
+      "bbox": [
+        659.2,
+        439.2,
+        556.8,
+        100.8
+      ],
+      "geometry": "roundRect",
+      "text": "Open HSE Reference Datasets (SmartQHSE)\nIOGP Life-Saving Rules, HAZOP guidewords, incident taxonomy — for hazard vocabulary design. smartqhse.com/datasets",
+      "textPreview": "Open HSE Reference Datasets (SmartQHSE) | IOGP Life-Saving Rules, HAZOP guidewords, incident taxonomy — for hazard vocabulary design. sma...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Open HSE Reference Datasets (SmartQHSE)"
+          },
+          {
+            "index": 2,
+            "text": "IOGP Life-Saving Rules, HAZOP guidewords, incident taxonomy — for hazard vocabulary"
+          },
+          {
+            "index": 3,
+            "text": "design. smartqhse.com/datasets"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Open HSE Reference Datasets (SmartQHSE)",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Open HSE Reference Datasets (SmartQHSE)",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "#191E23",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "IOGP Life-Saving Rules, HAZOP guidewords, incident taxonomy — for hazard vocabulary design. smartqhse.com/datasets",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IOGP Life-Saving Rules, HAZOP guidewords, incident taxonomy — for hazard vocabulary design. smartqhse.com/datasets",
+              "fontSize": 14,
+              "typeface": "Times New Roman",
+              "color": "#44494F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

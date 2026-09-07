@@ -1,0 +1,1914 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ofy9wn61",
+    "id": "ofy9wn61",
+    "slide": 3,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4F81BD",
+      "accent2": "#C0504D",
+      "accent3": "#9BBB59",
+      "accent4": "#8064A2",
+      "accent5": "#4BACC6",
+      "accent6": "#F79646",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#1F497D",
+      "lt2": "#EEECE1",
+      "hlink": "#0000FF",
+      "folHlink": "#800080"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Calibri",
+      "Times New Roman",
+      "TradeGothic"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "8/26/2026",
+          "textPreview": "8/26/2026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "8/26/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "8/26/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "@SIH Idea submission- Template",
+          "textPreview": "@SIH Idea submission- Template",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "@SIH Idea submission- Template"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1026",
+          "id": "1026",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            64,
+            -5,
+            1152,
+            120
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/1027",
+          "id": "1027",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            64,
+            115,
+            1152,
+            528.17
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ],
+          "lineWidth": 1
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            64,
+            667.33,
+            298.67,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "8/26/2026",
+          "textPreview": "8/26/2026",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "8/26/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "8/26/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            437.33,
+            667.33,
+            405.33,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "@SIH Idea submission- Template",
+          "textPreview": "@SIH Idea submission- Template",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "@SIH Idea submission- Template"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            917.33,
+            667.33,
+            298.67,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2l4fq98",
+      "id": "10",
+      "name": "Rectangle 9",
+      "bbox": [
+        0,
+        667.17,
+        1280,
+        52.83
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0",
+      "lineWidth": 1
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6dgf6tk",
+      "id": "17409",
+      "name": "Title 1",
+      "bbox": [
+        64,
+        -5,
+        1152,
+        120
+      ],
+      "text": "TECHNICAL APPROACH",
+      "textPreview": "TECHNICAL APPROACH",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 58.67,
+        "typeface": "TradeGothic",
+        "color": "tx1",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TECHNICAL APPROACH"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TECHNICAL APPROACH",
+          "runs": [
+            {
+              "index": 1,
+              "text": "TECHNICAL APPROACH",
+              "fontSize": 48,
+              "typeface": "Times New Roman",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obq90bml",
+      "id": "6",
+      "name": "Slide Number Placeholder 5",
+      "bbox": [
+        917.33,
+        667.33,
+        298.67,
+        38.33
+      ],
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 16,
+        "typeface": "TradeGothic",
+        "color": "#898989",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "color": "bg1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pcjqtg36",
+      "id": "7",
+      "name": "Footer Placeholder 6",
+      "bbox": [
+        488,
+        667.33,
+        336.38,
+        38.33
+      ],
+      "text": "@SIH Idea submission- Template",
+      "textPreview": "@SIH Idea submission- Template",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 16,
+        "typeface": "TradeGothic",
+        "color": {
+          "type": "theme",
+          "value": "tx1",
+          "transform": {
+            "lighten": 0.25
+          }
+        },
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "@SIH Idea submission- Template"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "@SIH Idea submission- Template",
+          "runs": [
+            {
+              "index": 1,
+              "text": "@SIH Idea submission- Template",
+              "color": "bg1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1c3mlsn",
+      "id": "11",
+      "name": "Oval 10",
+      "bbox": [
+        34.62,
+        26.48,
+        131.43,
+        84.76
+      ],
+      "geometry": "ellipse",
+      "text": "Sable",
+      "textPreview": "Sable",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sable"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sable",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sable",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gr654jix",
+      "id": "17410",
+      "name": "Picture 11",
+      "bbox": [
+        1026.78,
+        0.16,
+        236.2,
+        111.53
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 671097
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 671097
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cza94vmx",
+      "id": "2",
+      "name": "TextBox 17421",
+      "bbox": [
+        64,
+        117.99,
+        203.73,
+        34.9
+      ],
+      "geometry": "rect",
+      "text": "TECHNOLOGIES",
+      "textPreview": "TECHNOLOGIES",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 2.88,
+          "bottom": 2.88,
+          "left": 2.88
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TECHNOLOGIES"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TECHNOLOGIES",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TECHNOLOGIES",
+              "typeface": "Times New Roman",
+              "color": "#142D3C",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l4fi9cza",
+      "id": "30",
+      "name": "TextBox 29",
+      "bbox": [
+        30.47,
+        146.48,
+        625.72,
+        562.24
+      ],
+      "geometry": "rect",
+      "text": "NLP/NER — spaCy pipeline fine-tuned on a custom oil & gas safety lexicon (permit-to-work, LOTO, confined space, hot work, H2S) — not a generic off-the-shelf model\nSIF classification — weak-supervision labeling (rule-based + LLM-assisted, validated against public CSB/OSHA incident investigation reports) feeding a lightweight classifier — addresses the \"no labeled data\" problem head-on instead of hiding it\nExplainability — evidence retrieval: each flagged report is paired with the specific extracted hazard/exposure terms and similar past incidents that drove the score\nSimilarity & clustering — sentence embeddings + density-based clustering (HDBSCAN) to group recurring hazard patterns\nCopilot — RAG grounded strictly in retrieved reports and evidence (no ungrounded generation)\nApp/infra — React, FastAPI, PostgreSQL + pgvector, Docker\n",
+      "textPreview": "NLP/NER — spaCy pipeline fine-tuned on a custom oil & gas safety lexicon (permit-to-work, LOTO, confined space, hot work, H2S) — not a ge...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 19,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•NLP/NER — spaCy pipeline fine-tuned on a custom oil &"
+          },
+          {
+            "index": 2,
+            "text": "gas safety lexicon (permit-to-work, LOTO, confined space,"
+          },
+          {
+            "index": 3,
+            "text": "hot work, H2S) — not a generic off-the-shelf model"
+          },
+          {
+            "index": 4,
+            "text": "•SIF classification — weak-supervision labeling"
+          },
+          {
+            "index": 5,
+            "text": "(rule-based + LLM-assisted, validated against public"
+          },
+          {
+            "index": 6,
+            "text": "CSB/OSHA incident investigation reports) feeding a"
+          },
+          {
+            "index": 7,
+            "text": "lightweight classifier — addresses the \"no labeled data\""
+          },
+          {
+            "index": 8,
+            "text": "problem head-on instead of hiding it"
+          },
+          {
+            "index": 9,
+            "text": "•Explainability — evidence retrieval: each flagged report is"
+          },
+          {
+            "index": 10,
+            "text": "paired with the specific extracted hazard/exposure terms"
+          },
+          {
+            "index": 11,
+            "text": "and similar past incidents that drove the score"
+          },
+          {
+            "index": 12,
+            "text": "•Similarity & clustering — sentence embeddings +"
+          },
+          {
+            "index": 13,
+            "text": "density-based clustering (HDBSCAN) to group recurring"
+          },
+          {
+            "index": 14,
+            "text": "hazard patterns"
+          },
+          {
+            "index": 15,
+            "text": "•Copilot — RAG grounded strictly in retrieved reports and"
+          },
+          {
+            "index": 16,
+            "text": "evidence (no ungrounded generation)"
+          },
+          {
+            "index": 17,
+            "text": "•App/infra — React, FastAPI, PostgreSQL + pgvector,"
+          },
+          {
+            "index": 18,
+            "text": "Docker"
+          },
+          {
+            "index": 19,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NLP/NER — spaCy pipeline fine-tuned on a custom oil & gas safety lexicon (permit-to-work, LOTO, confined space, hot work, H2S) — not a generic off-the-shelf model",
+          "runs": [
+            {
+              "index": 1,
+              "text": "NLP/NER",
+              "typeface": "Times New Roman",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": " — ",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 3,
+              "text": "spaCy",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 4,
+              "text": " pipeline fine-tuned on a custom oil & gas safety lexicon (permit-to-work, LOTO, confined space, hot work, H2S) — not a generic off-the-shelf model",
+              "typeface": "Times New Roman"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "SIF classification — weak-supervision labeling (rule-based + LLM-assisted, validated against public CSB/OSHA incident investigation reports) feeding a lightweight classifier — addresses the \"no labeled data\" problem head-on instead of hiding it",
+          "runs": [
+            {
+              "index": 1,
+              "text": "SIF classification",
+              "typeface": "Times New Roman",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": " — weak-supervision ",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 3,
+              "text": "labeling",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 4,
+              "text": " (rule-based + LLM-assisted, validated against public CSB/OSHA incident investigation reports) feeding a lightweight classifier — addresses the \"no ",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 5,
+              "text": "labeled",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 6,
+              "text": " data\" problem head-on instead of hiding it",
+              "typeface": "Times New Roman"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Explainability — evidence retrieval: each flagged report is paired with the specific extracted hazard/exposure terms and similar past incidents that drove the score",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Explainability",
+              "typeface": "Times New Roman",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": " — evidence retrieval: each flagged report is paired with the specific extracted hazard/exposure terms and similar past incidents that drove the score",
+              "typeface": "Times New Roman"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Similarity & clustering — sentence embeddings + density-based clustering (HDBSCAN) to group recurring hazard patterns",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Similarity & clustering",
+              "typeface": "Times New Roman",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": " — sentence embeddings + density-based clustering (HDBSCAN) to group recurring hazard patterns",
+              "typeface": "Times New Roman"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "Copilot — RAG grounded strictly in retrieved reports and evidence (no ungrounded generation)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Copilot",
+              "typeface": "Times New Roman",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": " — RAG grounded strictly in retrieved reports and evidence (no ungrounded generation)",
+              "typeface": "Times New Roman"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "App/infra — React, FastAPI, PostgreSQL + pgvector, Docker",
+          "runs": [
+            {
+              "index": 1,
+              "text": "App/infra",
+              "typeface": "Times New Roman",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": " — React, ",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 3,
+              "text": "FastAPI",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 4,
+              "text": ", PostgreSQL + ",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 5,
+              "text": "pgvector",
+              "typeface": "Times New Roman"
+            },
+            {
+              "index": 6,
+              "text": ", Docker",
+              "typeface": "Times New Roman"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2d07mh4",
+      "id": "32",
+      "name": "Rectangle 31",
+      "bbox": [
+        656.19,
+        129.03,
+        596.05,
+        523.8
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "dk1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "tx1",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0vi5czy",
+      "id": "34",
+      "name": "TextBox 17409",
+      "bbox": [
+        663.93,
+        132.16,
+        585.6,
+        34.9
+      ],
+      "geometry": "rect",
+      "text": "TECHNICAL APPROACH",
+      "textPreview": "TECHNICAL APPROACH",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 2.88,
+          "bottom": 2.88,
+          "left": 2.88
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TECHNICAL APPROACH"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TECHNICAL APPROACH",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TECHNICAL APPROACH",
+              "typeface": "Times New Roman",
+              "color": "#142D3C",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwzihwzi",
+      "id": "38",
+      "name": "Rounded Rectangle 17411",
+      "bbox": [
+        677.16,
+        187.39,
+        538.84,
+        58.18
+      ],
+      "geometry": "roundRect",
+      "text": "Input\nText/PDF/Excel reports, OCR + normalization",
+      "textPreview": "Input | Text/PDF/Excel reports, OCR + normalization",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Input"
+          },
+          {
+            "index": 2,
+            "text": "Text/PDF/Excel reports, OCR + normalization"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Input",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Input",
+              "fontSize": 21.33,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Text/PDF/Excel reports, OCR + normalization",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Text/PDF/Excel reports, OCR + normalization",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F5F8F9",
+      "lineColor": "#00785F",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nuhs7uh",
+      "id": "40",
+      "name": "Rounded Rectangle 17416",
+      "bbox": [
+        677.16,
+        273.46,
+        538.84,
+        58.18
+      ],
+      "geometry": "roundRect",
+      "text": "Extraction\nNLP pulls hazard, activity, exposure, consequence",
+      "textPreview": "Extraction | NLP pulls hazard, activity, exposure, consequence",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Extraction"
+          },
+          {
+            "index": 2,
+            "text": "NLP pulls hazard, activity, exposure, consequence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Extraction",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Extraction",
+              "fontSize": 21.33,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "NLP pulls hazard, activity, exposure, consequence",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NLP pulls hazard, activity, exposure, consequence",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E7F4EF",
+      "lineColor": "#00785F",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/po3ilcvm",
+      "id": "41",
+      "name": "Rounded Rectangle 17411",
+      "bbox": [
+        677.16,
+        359.28,
+        538.84,
+        58.18
+      ],
+      "geometry": "roundRect",
+      "text": "Precursor scoring\nClassifier assigns SIF score + confidence",
+      "textPreview": "Precursor scoring | Classifier assigns SIF score + confidence",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Precursor scoring"
+          },
+          {
+            "index": 2,
+            "text": "Classifier assigns SIF score + confidence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Precursor scoring",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Precursor scoring",
+              "fontSize": 21.33,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Classifier assigns SIF score + confidence",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Classifier assigns SIF score + confidence",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F5F8F9",
+      "lineColor": "#00785F",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21szqxcb",
+      "id": "42",
+      "name": "Rounded Rectangle 17416",
+      "bbox": [
+        677.16,
+        445.34,
+        538.84,
+        58.18
+      ],
+      "geometry": "roundRect",
+      "text": "Evidence & clustering\nMatched evidence + similar past incidents",
+      "textPreview": "Evidence & clustering | Matched evidence + similar past incidents",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence & clustering"
+          },
+          {
+            "index": 2,
+            "text": "Matched evidence + similar past incidents"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence & clustering",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence & clustering",
+              "fontSize": 21.33,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Matched evidence + similar past incidents",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Matched evidence + similar past incidents",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E7F4EF",
+      "lineColor": "#00785F",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32l0j2dw",
+      "id": "43",
+      "name": "Rounded Rectangle 17416",
+      "bbox": [
+        677.16,
+        532.79,
+        538.84,
+        58.18
+      ],
+      "geometry": "roundRect",
+      "text": "Output\nRanked alerts, trend dashboard, copilot",
+      "textPreview": "Output | Ranked alerts, trend dashboard, copilot",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 5.76,
+          "right": 9.6,
+          "bottom": 5.76,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Output"
+          },
+          {
+            "index": 2,
+            "text": "Ranked alerts, trend dashboard, copilot"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Output",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Output",
+              "fontSize": 21.33,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Ranked alerts, trend dashboard, copilot",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ranked alerts, trend dashboard, copilot",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman",
+              "color": "tx1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E7F4EF",
+      "lineColor": "#00785F",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ds3ipcvy",
+      "id": "45",
+      "name": "TextBox 15369",
+      "bbox": [
+        922.77,
+        238.25,
+        33.6,
+        33.6
+      ],
+      "rotation": 90,
+      "geometry": "rect",
+      "text": "→",
+      "textPreview": "→",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 2.88,
+          "bottom": 2.88,
+          "left": 2.88
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "→"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "→",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "→",
+              "fontSize": 26.67,
+              "typeface": "Aptos",
+              "color": "#00785F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rql0nmds",
+      "id": "47",
+      "name": "TextBox 15369",
+      "bbox": [
+        922.77,
+        322,
+        33.6,
+        33.6
+      ],
+      "rotation": 90,
+      "geometry": "rect",
+      "text": "→",
+      "textPreview": "→",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 2.88,
+          "bottom": 2.88,
+          "left": 2.88
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "→"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "→",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "→",
+              "fontSize": 26.67,
+              "typeface": "Aptos",
+              "color": "#00785F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wnitwvu",
+      "id": "49",
+      "name": "TextBox 15369",
+      "bbox": [
+        922.77,
+        408.52,
+        33.6,
+        33.6
+      ],
+      "rotation": 90,
+      "geometry": "rect",
+      "text": "→",
+      "textPreview": "→",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 2.88,
+          "bottom": 2.88,
+          "left": 2.88
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "→"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "→",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "→",
+              "fontSize": 26.67,
+              "typeface": "Aptos",
+              "color": "#00785F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a10b6p03",
+      "id": "51",
+      "name": "TextBox 15369",
+      "bbox": [
+        922.77,
+        493.88,
+        33.6,
+        33.6
+      ],
+      "rotation": 90,
+      "geometry": "rect",
+      "text": "→",
+      "textPreview": "→",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 2.88,
+          "right": 2.88,
+          "bottom": 2.88,
+          "left": 2.88
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "→"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "→",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "→",
+              "fontSize": 26.67,
+              "typeface": "Aptos",
+              "color": "#00785F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

@@ -10,7 +10,7 @@ export function ProductHeader({ compact = false }: { compact?: boolean }) {
         </span>
         <span>RAKSHAK<span className="brand-ai">.AI</span></span>
       </Link>
-      <nav aria-label="Primary navigation">
+      <nav className="primary-nav" aria-label="Primary navigation">
         <Link href="/analyze">New analysis</Link>
         <span className="model-pill">Rakshak SIF Engine / v1</span>
       </nav>

@@ -1,7 +1,16 @@
 "use client";
 
 import type { AnalysisResult, ReportDetail } from "@sih/contracts";
-import { AlertTriangle, ArrowLeft, FileSearch, LoaderCircle } from "lucide-react";
+import {
+  AlertTriangle,
+  ArrowLeft,
+  ArrowRight,
+  CheckCircle2,
+  CircleHelp,
+  FileSearch,
+  LoaderCircle,
+  ShieldAlert,
+} from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { SafeguardApiError, demoAccessToken, getReport } from "../../lib/safeguard-api";
@@ -31,33 +40,66 @@ export function ResultContent({ detail }: { detail: ReportDetail }) {
     );
   }
   const result: AnalysisResult = stored.result;
+  const labelMeta = {
+    yes: {
+      title: "Potential identified",
+      detail: "The submitted evidence supports escalation for human review.",
+      icon: ShieldAlert,
+    },
+    no: {
+      title: "Not identified",
+      detail: "The submitted evidence does not currently support a SIF classification.",
+      icon: CheckCircle2,
+    },
+    unknown: {
+      title: "Evidence incomplete",
+      detail: "The available evidence is not sufficient for a defensible classification.",
+      icon: CircleHelp,
+    },
+  }[result.sif_label];
+  const LabelIcon = labelMeta.icon;
+
   return (
     <>
       <section className="result-hero">
-        <div>
-          <Link className="back-link" href="/analyze"><ArrowLeft /> New analysis</Link>
-          <span className="eyebrow">Machine proposal · review pending</span>
+        <div className="result-hero-copy">
+          <div className="result-hero-nav">
+            <Link className="back-link" href="/analyze"><ArrowLeft /> New analysis</Link>
+            <span className="review-pill">Machine proposal · review pending</span>
+          </div>
           <h1>{result.sif_label === "unknown" ? "Insufficient evidence" : `SIF potential: ${result.sif_label}`}</h1>
           <p>{result.summary}</p>
         </div>
-        <div className={`label-orbit label-${result.sif_label}`}>
-          <span>{result.sif_label}</span>
-          <small>SIF proposal</small>
-        </div>
+        <aside className={`result-verdict label-${result.sif_label}`} aria-label={`SIF proposal: ${result.sif_label}`}>
+          <div className="result-verdict-heading">
+            <span>Assessment signal</span>
+            <LabelIcon aria-hidden="true" />
+          </div>
+          <strong>{result.sif_label}</strong>
+          <h2>{labelMeta.title}</h2>
+          <p>{labelMeta.detail}</p>
+          <div className="review-required"><span aria-hidden="true" /> Human review required</div>
+        </aside>
       </section>
 
       <section className="result-grid">
         <article className="result-panel evidence-panel">
           <div className="panel-heading"><span>01</span><h2>Submitted evidence</h2></div>
-          <blockquote>{detail.report.narrative}</blockquote>
+          <div className="submitted-observation">
+            <span>Original observation</span>
+            <blockquote>{detail.report.narrative}</blockquote>
+          </div>
           {result.evidence.length ? (
             <div className="evidence-list">
-              {result.evidence.map((item) => (
-                <div key={item.id}>
-                  <FileSearch aria-hidden="true" />
-                  <p>“{item.quote}”</p>
-                  <small>{item.field} · exact match · {item.method.replaceAll("_", " ")}</small>
-                </div>
+              {result.evidence.map((item, index) => (
+                <article className="evidence-item" key={item.id}>
+                  <div className="evidence-item-icon"><FileSearch aria-hidden="true" /></div>
+                  <div>
+                    <span className="evidence-index">Evidence {String(index + 1).padStart(2, "0")}</span>
+                    <p>“{item.quote}”</p>
+                    <small>{item.field} · exact match · {item.method.replaceAll("_", " ")}</small>
+                  </div>
+                </article>
               ))}
             </div>
           ) : <p className="muted-copy">No defensible exact-text evidence was returned.</p>}
@@ -65,29 +107,35 @@ export function ResultContent({ detail }: { detail: ReportDetail }) {
 
         <aside className="result-panel assessment-panel">
           <div className="panel-heading"><span>02</span><h2>Assessment</h2></div>
-          <h3>Relevant rules</h3>
-          <div className="tag-list">
-            {result.relevant_rule_ids.length
-              ? result.relevant_rule_ids.map((rule) => <span key={rule}>{ruleNames[rule]}</span>)
-              : <p>None identified · {result.rules_assessment} assessment</p>}
+          <div className="assessment-section">
+            <h3>Relevant rules</h3>
+            <div className="tag-list">
+              {result.relevant_rule_ids.length
+                ? result.relevant_rule_ids.map((rule) => <span key={rule}>{ruleNames[rule]}</span>)
+                : <p>None identified · {result.rules_assessment} assessment</p>}
+            </div>
           </div>
-          <h3>Barrier observations</h3>
-          {result.barriers.length ? (
-            <ul className="barrier-list">
-              {result.barriers.map((barrier) => (
-                <li key={`${barrier.tag}-${barrier.state}`}>
-                  <span>{barrier.tag.replaceAll("_", " ")}</span><strong>{barrier.state}</strong>
-                </li>
-              ))}
-            </ul>
-          ) : <p className="muted-copy">No supported barrier finding.</p>}
+          <div className="assessment-section">
+            <h3>Barrier observations</h3>
+            {result.barriers.length ? (
+              <ul className="barrier-list">
+                {result.barriers.map((barrier) => (
+                  <li key={`${barrier.tag}-${barrier.state}`}>
+                    <span>{barrier.tag.replaceAll("_", " ")}</span><strong>{barrier.state}</strong>
+                  </li>
+                ))}
+              </ul>
+            ) : <p className="muted-copy">No supported barrier finding.</p>}
+          </div>
           {result.missing_information.length > 0 && (
-            <>
+            <div className="assessment-section missing-section">
               <h3>Missing information</h3>
               <ul className="missing-list">
-                {result.missing_information.map((item) => <li key={item}>{item}</li>)}
+                {result.missing_information.map((item, index) => (
+                  <li key={item}><span>{String(index + 1).padStart(2, "0")}</span>{item}</li>
+                ))}
               </ul>
-            </>
+            </div>
           )}
         </aside>
       </section>
@@ -99,7 +147,10 @@ export function ResultContent({ detail }: { detail: ReportDetail }) {
         <div><span>Rubric</span><strong>{result.provenance.label_guide_version}</strong></div>
         <div><span>Inference</span><strong>{result.provenance.inference_is_live ? "Live" : "Recorded"}</strong></div>
       </section>
-      <p className="result-disclaimer">Rakshak AI produces a review proposal, not a declaration that work is safe. Human review is required.</p>
+      <footer className="result-footer">
+        <p className="result-disclaimer">Rakshak AI produces a review proposal, not a declaration that work is safe. Human review is required.</p>
+        <Link className="text-link" href="/analyze">Review another observation <ArrowRight aria-hidden="true" /></Link>
+      </footer>
     </>
   );
 }

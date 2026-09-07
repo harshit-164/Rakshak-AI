@@ -153,7 +153,7 @@ export function AnalyzeForm() {
             <h2>Connect Supabase to begin.</h2>
             <p>
               Add the two public Supabase variables, API service credentials, and a server-only
-              server-only analysis credentials. No secret belongs in the browser bundle.
+              analysis credential. No secret belongs in the browser bundle.
             </p>
             <code>cp apps/web/.env.example apps/web/.env.local</code>
           </div>

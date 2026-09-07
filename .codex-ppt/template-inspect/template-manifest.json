@@ -1,0 +1,137 @@
+{
+  "sourcePptx": "/home/harshit/Downloads/SIF SENTINEL-Turn unstructured near-miss reports into explainable SIF intelligence..pptx",
+  "workspace": "/home/harshit/Desktop/SIH_26",
+  "outDir": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect",
+  "generatedAt": "2026-09-07T16:40:27.824Z",
+  "slideCount": 6,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/source-slides/source-slide-01.png",
+      "previewRelativePath": ".codex-ppt/template-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/layouts/source-slide-01.layout.json",
+      "layoutRelativePath": ".codex-ppt/template-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/source-slides/source-slide-02.png",
+      "previewRelativePath": ".codex-ppt/template-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/layouts/source-slide-02.layout.json",
+      "layoutRelativePath": ".codex-ppt/template-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/source-slides/source-slide-03.png",
+      "previewRelativePath": ".codex-ppt/template-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/layouts/source-slide-03.layout.json",
+      "layoutRelativePath": ".codex-ppt/template-inspect/layouts/source-slide-03.layout.json"
+    },
+    {
+      "slide": 4,
+      "previewPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/source-slides/source-slide-04.png",
+      "previewRelativePath": ".codex-ppt/template-inspect/source-slides/source-slide-04.png",
+      "layoutPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/layouts/source-slide-04.layout.json",
+      "layoutRelativePath": ".codex-ppt/template-inspect/layouts/source-slide-04.layout.json"
+    },
+    {
+      "slide": 5,
+      "previewPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/source-slides/source-slide-05.png",
+      "previewRelativePath": ".codex-ppt/template-inspect/source-slides/source-slide-05.png",
+      "layoutPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/layouts/source-slide-05.layout.json",
+      "layoutRelativePath": ".codex-ppt/template-inspect/layouts/source-slide-05.layout.json"
+    },
+    {
+      "slide": 6,
+      "previewPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/source-slides/source-slide-06.png",
+      "previewRelativePath": ".codex-ppt/template-inspect/source-slides/source-slide-06.png",
+      "layoutPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/layouts/source-slide-06.layout.json",
+      "layoutRelativePath": ".codex-ppt/template-inspect/layouts/source-slide-06.layout.json"
+    }
+  ],
+  "inspectPath": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/template-inspect.ndjson",
+  "inspectRelativePath": ".codex-ppt/template-inspect/template-inspect.ndjson",
+  "inspectTruncated": true,
+  "inspectMetadata": {
+    "revision": "szv4wn",
+    "target": {
+      "id": "pr/e80qa9"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [
+    {
+      "entry": "ppt/media/image2.png",
+      "path": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/assets/ppt/media/image2.png",
+      "relativePath": ".codex-ppt/template-inspect/assets/ppt/media/image2.png",
+      "bytes": 671097
+    },
+    {
+      "entry": "ppt/media/image1.png",
+      "path": "/home/harshit/Desktop/SIH_26/.codex-ppt/template-inspect/assets/ppt/media/image1.png",
+      "relativePath": ".codex-ppt/template-inspect/assets/ppt/media/image1.png",
+      "bytes": 182377
+    }
+  ],
+  "fonts": [
+    "+mn-cs",
+    "+mn-ea",
+    "+mn-lt",
+    "Angsana New",
+    "Aptos",
+    "Arial",
+    "Calibri",
+    "Cordia New",
+    "DaunPenh",
+    "DokChampa",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Garamond",
+    "Gautami",
+    "Iskoola Pota",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "MV Boli",
+    "Mangal",
+    "Microsoft Himalaya",
+    "Microsoft Uighur",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "MoolBoran",
+    "Nyala",
+    "Plantagenet Cherokee",
+    "Raavi",
+    "Shruti",
+    "Times New Roman",
+    "TradeGothic",
+    "Tunga",
+    "Vrinda",
+    "宋体",
+    "新細明體",
+    "맑은 고딕",
+    "ＭＳ Ｐゴシック"
+  ],
+  "packageParts": {
+    "mediaCount": 2,
+    "slideXmlCount": 6,
+    "chartCount": 0,
+    "tableSlideCount": 0
+  }
+}
