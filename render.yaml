@@ -1,7 +1,8 @@
 services:
   - type: web
-    name: safeguard-ai-api
+    name: Rakshak-AI
     runtime: docker
+    plan: free
     dockerfilePath: ./services/api/Dockerfile
     dockerContext: .
     healthCheckPath: /health/live
